@@ -1,0 +1,2164 @@
+@charset "UTF-8";
+
+main.product-main-content {
+  font-family: "Pretendard", Pretendard, "Noto Sans KR", "Roboto", "Malgun Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #202020;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: -0.02rem;
+}
+main.product-main-content h1.title, main.product-main-content h2.title, main.product-main-content h3.title, main.product-main-content h4.title, main.product-main-content h5.title, main.product-main-content h6.title {
+  font-weight: 700;
+  letter-spacing: -0.09rem;
+  text-align: center;
+}
+main.product-main-content h1.title {
+  font-size: 60px;
+  line-height: 58px;
+}
+main.product-main-content h2.title {
+  font-size: 48px;
+  line-height: 58px;
+}
+main.product-main-content h3.title {
+  font-size: 40px;
+  line-height: 50px;
+}
+main.product-main-content h4.title {
+  font-size: 30px;
+  line-height: 37px;
+}
+main.product-main-content h5.title {
+  font-size: 24px;
+  line-height: 32px;
+}
+main.product-main-content h6.title {
+  font-size: 18px;
+  line-height: 26px;
+}
+main.product-main-content .subtitle {
+  font-size: 28px;
+  line-height: 34px;
+}
+main.product-main-content p, main.product-main-content span, main.product-main-content li, main.product-main-content a {
+  font-family: "Pretendard", Pretendard, "Noto Sans KR", "Roboto", "Malgun Gothic", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02rem;
+}
+main.product-main-content sup.footnoteLink {
+  line-height: 1;
+}
+main.product-main-content sup.footnoteLink > a {
+  font-size: small;
+  line-height: 1;
+}
+main.product-main-content blockquote {
+  line-height: 1;
+}
+main.product-main-content blockquote cite {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.02rem;
+  color: #808080;
+  font-style: normal;
+}
+main.product-main-content .description {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02rem;
+}
+main.product-main-content .disclaimer-list > li {
+  line-height: 20px;
+}
+main.product-main-content .disclaimer {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 10px;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.02rem;
+  color: #808080;
+  text-align: left;
+}
+main.product-main-content .disclaimer::before {
+  position: absolute;
+  display: inline-block;
+  top: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "*";
+  font-size: 12px;
+}
+main.product-main-content .product-info .disclaimer-lg {
+  position: relative;
+  padding: 0 0 0 10px;
+  color: #808080;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.14px;
+}
+main.product-main-content .product-info .disclaimer-lg::before {
+  font-size: 14px;
+}
+
+main.product-main-content {
+  position: relative;
+  margin: 0 auto;
+  width: 1180px;
+  background-color: #ffffff;
+}
+main.product-main-content * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main.product-main-content .product-overview,
+main.product-main-content .product-section,
+main.product-main-content .section-header,
+main.product-main-content .section-contents,
+main.product-main-content .product-info {
+  position: relative;
+  margin: 0 auto;
+}
+main.product-main-content .product-detail-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  width: 1180px;
+}
+main.product-main-content .product-detail-container-full {
+  position: relative;
+  width: 100%;
+}
+main.product-main-content .autoPlayVideo {
+  width: 100%;
+}
+main.product-main-content .product-overview {
+  position: relative;
+}
+main.product-main-content .product-section {
+  padding: 124px 0 0 0;
+}
+main.product-main-content .product-section::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 29px;
+  background-image: url("data:image/svg+xml;utf8,<svg width='25' height='29' viewBox='0 0 25 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line x1='2.03498' y1='27.2925' x2='23.649' y2='1.04691' stroke='%23444341' stroke-width='3'/></svg>");
+  background-size: contain;
+  margin: 0 auto 30px auto;
+}
+main.product-main-content .product-section .subtitle + .title {
+  margin-top: 10px;
+}
+main.product-main-content .product-section .title + .description {
+  margin-top: 30px;
+}
+main.product-main-content .product-section .description + .disclaimer,
+main.product-main-content .product-section .description + .disclaimer-list {
+  margin-top: 20px;
+}
+main.product-main-content .product-section .section-header .head {
+  text-align: center;
+}
+main.product-main-content .product-section .section-contents {
+  text-align: center;
+}
+main.product-main-content .product-section .section-contents .head {
+  padding: 110px 0 0 0;
+}
+main.product-main-content .product-section .section-contents .body {
+  padding: 40px 0 0 0;
+}
+main.product-main-content .product-section .section-contents .foot {
+  padding: 20px 0 0 0;
+}
+main.product-main-content .product-section .section-contents-full {
+  padding: 0;
+  width: 100%;
+  min-width: 1180px;
+}
+main.product-main-content .product-section .section-contents-gray {
+  padding: 50px 0;
+  background-color: #f6f6f6;
+}
+main.product-main-content .product-section .section-contents-gray .body {
+  padding-top: initial;
+}
+main.product-main-content .product-section .section-header + .section-contents-gray {
+  margin-top: 60px;
+}
+main.product-main-content .product-section + .product-section-gray {
+  margin-top: 35px;
+  padding-bottom: 72px;
+}
+main.product-main-content .product-section-gray {
+  background-color: #f6f6f6;
+}
+main.product-main-content .product-section-darkgray {
+  padding-bottom: 75px;
+  background-color: #444341;
+}
+main.product-main-content .product-section-darkgray::before {
+  background-image: url("data:image/svg+xml;utf8,<svg width='25' height='29' viewBox='0 0 25 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line x1='2.03498' y1='27.2925' x2='23.649' y2='1.04691' stroke='%23d5d5d5' stroke-width='3'/></svg>");
+}
+main.product-main-content .product-section-darkgray .head {
+  color: #ffffff;
+}
+main.product-main-content .product-info {
+  position: relative;
+}
+main.product-main-content .product-info .info-contents {
+  position: relative;
+  padding: 120px 0 0;
+}
+main.product-main-content .product-info .info-contents .head {
+  text-align: center;
+}
+main.product-main-content .product-info .info-contents .head .subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+}
+main.product-main-content .product-info .info-contents .head .subtitle + .title {
+  margin-top: 16px;
+}
+main.product-main-content .product-info .info-contents .body {
+  margin: 50px 0 0 0;
+}
+
+main.product-main-content.Air .product-section::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 29px;
+  background-image: url("data:image/svg+xml;utf8,<svg width='25' height='29' viewBox='0 0 25 29' fill='none' xmlns='http://www.w3.org/2000/svg'><line x1='2.03546' y1='27.2925' x2='23.6495' y2='1.04691' stroke='%2370AEFF' stroke-width='3'/></svg>");
+  background-size: contain;
+  margin: 0 auto 30px auto;
+}
+
+main.product-main-content * + .product-compo-table {
+  margin-top: 40px;
+}
+main.product-main-content .product-compo-table {
+  width: 100%;
+}
+main.product-main-content .product-compo-table tbody tr th, main.product-main-content .product-compo-table tbody tr td {
+  font-family: "Pretendard", Pretendard, "Noto Sans KR", "Roboto", "Malgun Gothic", sans-serif;
+  padding: 5px 20px;
+  height: 52px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+  border-top: 1px solid #E6E6E6;
+}
+main.product-main-content .product-compo-table tbody tr th strong, main.product-main-content .product-compo-table tbody tr td strong {
+  font-size: 16px;
+  font-weight: 700;
+}
+main.product-main-content .product-compo-table tbody tr th small, main.product-main-content .product-compo-table tbody tr td small {
+  font-size: 13px;
+  font-weight: 400;
+}
+main.product-main-content .product-compo-table tbody tr th .icon-certification, main.product-main-content .product-compo-table tbody tr td .icon-certification {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+main.product-main-content .product-compo-table tbody tr:last-child th, main.product-main-content .product-compo-table tbody tr:last-child td {
+  border-bottom: 1px solid #E6E6E6;
+}
+main.product-main-content .product-compo-table tbody tr th {
+  background-color: #F7F7F7;
+}
+main.product-main-content .product-compo-table tbody tr td {
+  border-right: 1px solid #E6E6E6;
+}
+main.product-main-content .product-compo-table tbody tr td:last-child {
+  border-right: none;
+}
+main.product-main-content .product-compo-table tbody tr .icon-certification-text {
+  line-height: 16px;
+  font-weight: 400;
+}
+main.product-main-content .product-compo-table + .disclaimer {
+  margin-top: 25px;
+}
+
+main.product-main-content .product-overview {
+  position: relative;
+  padding: 94px 0 77px 0;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/product-overview-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1180px 1038px;
+}
+main.product-main-content .product-overview .overview-header {
+  text-align: center;
+}
+main.product-main-content .product-overview .overview-header .subtitle {
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: -0.0325rem;
+}
+main.product-main-content .product-overview .overview-header h1.title {
+  margin-top: 10px;
+}
+main.product-main-content .product-overview .overview-header h1.title > span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 19px;
+  width: 128px;
+  height: 74px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -0.9px;
+  color: #FFFFFF;
+  background-color: #202020;
+  border-radius: 5px;
+}
+main.product-main-content .product-overview .overview-header .product-code {
+  margin-top: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.48px;
+}
+main.product-main-content .product-overview .overview-content {
+  margin: 462px 0 0;
+}
+main.product-main-content .product-overview .overview-content .sticker-warranty {
+  position: absolute;
+  top: 456px;
+  right: 100px;
+}
+main.product-main-content .product-overview .overview-content .sticker-warranty + .sticker-warranty {
+  top: 574px;
+}
+main.product-main-content .product-overview .overview-content .sticker-warranty img {
+  width: 110px;
+  height: 110px;
+}
+main.product-main-content .product-overview .overview-content .overview-list {
+  text-align: center;
+}
+main.product-main-content .product-overview .overview-content .overview-list > ul {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.9);
+}
+main.product-main-content .product-overview .overview-content .overview-list > ul > li {
+  position: relative;
+  align-content: center;
+  width: 244px;
+  height: 247px;
+}
+main.product-main-content .product-overview .overview-content .overview-list > ul > li::after {
+  position: absolute;
+  top: 87px;
+  right: 0;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 72px;
+  background-color: #E6E6E6;
+}
+main.product-main-content .product-overview .overview-content .overview-list > ul > li > dl > dt {
+  margin-top: 9px;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: -0.22px;
+}
+main.product-main-content .product-overview .overview-content .overview-list > ul > li > dl > dd.txt {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep1 .group-sleepProblem {
+  display: flex;
+  justify-content: space-between;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep1 .group-sleepProblem .item {
+  position: relative;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep1 .group-sleepProblem .item > dl {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 40px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-goodSleep1-speechBubble.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep1 .group-sleepProblem .item > dl > dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 291px;
+  width: 395px;
+  height: 40px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 20px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.3);
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep1 .group-sleepProblem .item > dl > dd {
+  padding: 16px 0;
+  color: #FFF;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep1 .group-sleepProblem .item > dl dd + dd {
+  margin-top: 40px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep1 .body {
+  padding-top: 60px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep2 {
+  height: 875px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-goodSleep2-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot {
+  display: flex;
+  gap: 40px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item {
+  display: flex;
+  flex-direction: column;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item figure {
+  flex-basis: 732px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item figure figcaption > .subtit {
+  font-size: 22px;
+  line-height: 45px;
+  letter-spacing: -0.44px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item figure figcaption > h4 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.9px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item figure figcaption > p {
+  margin-top: 18px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item figure figcaption > .disclaimer {
+  margin-top: 12px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item .figure-description {
+  margin-top: 20px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item .figure-description > dl {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item .figure-description > dl > dt {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.26px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .group-coolNhot .item .figure-description > dl > dd {
+  color: #90A0A6;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .head {
+  padding-top: 75px;
+}
+main.product-main-content .product-section-goodSleep .section-contents-goodSleep3 .body {
+  padding-top: 73px;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode {
+  display: flex;
+  gap: 38px;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item {
+  padding: 70px 40px 0 40px;
+  flex: 0 0 520px;
+  height: 520px;
+  color: #fff;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item .icon {
+  margin-bottom: 22px;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item h4 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: -0.9px;
+  font-weight: 700;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item p {
+  margin-bottom: 10px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: -0.02rem;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item .disclaimer-list {
+  margin-bottom: 10px;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item .disclaimer-list .disclaimer {
+  color: rgba(250, 250, 250, 0.8);
+  font-size: 14px;
+  font-weight: 300;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item .information {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(250, 250, 250, 0.8);
+  font-weight: 300;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .item .information::before {
+  content: "";
+  margin-right: 5px;
+  display: inline-block;
+  width: 15px;
+  height: 14px;
+  background: url('data:image/svg+xml;utf8,<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 1.4C10.5877 1.4 13.1 3.9123 13.1 7C13.1 10.0877 10.5877 12.6 7.5 12.6C4.4123 12.6 1.9 10.0877 1.9 7C1.9 3.9123 4.4123 1.4 7.5 1.4ZM7.5 0C3.6339 0 0.5 3.1339 0.5 7C0.5 10.8661 3.6339 14 7.5 14C11.3661 14 14.5 10.8661 14.5 7C14.5 3.1339 11.3661 0 7.5 0ZM8.2 9.1H6.8V10.5H8.2V9.1ZM6.8 7.7H8.2L8.55 3.5H6.45L6.8 7.7Z" fill="%23DDDDDD"/></svg>') no-repeat center/contain;
+  vertical-align: -2px;
+  font-weight: 300;
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .condensation {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-metCareMode-condensation-bg.jpg");
+}
+main.product-main-content .product-section-matCare .section-contents-metCareMode .group-metCareMode .drying {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-metCareMode-drying-bg.jpg");
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body {
+  margin-top: 60px;
+  padding: 52px 0;
+  background-color: #F5F4F8;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm {
+  display: flex;
+  justify-content: space-evenly;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item > p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item > p strong.cool {
+  color: #0E5DB7;
+  font-weight: 700;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item > p strong.warm {
+  color: #FF5C5C;
+  font-weight: 700;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas {
+  position: relative;
+  margin: 20px auto 0;
+  display: inline-block;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box {
+  position: absolute;
+  z-index: 15;
+  overflow: hidden;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box .arrow {
+  margin-top: 0;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box .text {
+  opacity: 1;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box .text p {
+  font-size: 11px;
+  line-height: 13px;
+  color: #545251;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box .text p.highlight {
+  font-size: 12px;
+  font-weight: 700;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.up {
+  bottom: 80px;
+  right: 56px;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.up .arrow {
+  margin-top: 8px;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.down {
+  top: 178px;
+  right: 65px;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.down .arrow {
+  margin-bottom: 8px;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item.cool .animation-canvas .text-box.down {
+  top: 222px;
+  right: 18px;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item.cool .animation-canvas .text-box.down .arrow {
+  overflow: hidden;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item.cool .animation-canvas .text-box.down .arrow img {
+  transform: rotateX(180deg);
+  margin-top: -7px
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .popup-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 13px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 8.25px 5.5px 9.7px 0 rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .chart-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 361px 351px;
+  z-index: 5;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .base {
+  text-align: center;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .chart-area {
+  width: 0%;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.up {
+  height: 35px;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.up .text {
+  opacity: 0;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.down {
+  height: 0;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .text-box.down .text {
+  opacity: 0;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas .popup-box {
+  opacity: 0;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas[data-motion-visible=true] .chart-area {
+  width: 100%;
+  transition: width 1000ms linear;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas[data-motion-visible=true] .text-box {
+  height: 68px;
+  transition: height 480ms linear;
+  transition-delay: 1000ms;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas[data-motion-visible=true] .text-box .text {
+  opacity: 1;
+  transition: opacity 480ms linear;
+  transition-delay: 1500ms;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas[data-motion-visible=true] .chart-area,
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas[data-motion-visible=true] .text-box {
+  animation: coolwarm 1s linear 2.5s 2;
+  animation-fill-mode: forwards;
+  animation-delay: 2000ms;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas[data-motion-visible=true] .popup-box {
+  opacity: 1;
+  transition: opacity 480ms linear;
+  transition-delay: 4000ms;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm > .item .animation-canvas[data-motion-visible=true] .popup-box {
+  animation: coolwarm 1s linear 5s 2;
+  animation-fill-mode: forwards;
+}
+@keyframes coolwarm {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm .item.cool .animation-canvas .text-box p.highlight {
+  color: #0E5DB7;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm .item.cool .animation-canvas .popup-box {
+  top: 133px;
+  left: 158px;
+  width: 57px;
+  height: 45px;
+  border: 2px solid #3794FF;
+  background-color: rgba(82, 163, 255, 0.6);
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm .item.cool .animation-canvas .chart-area {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-coolwarm-chartAreaCool_250725.svg");
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm .item.warm .animation-canvas .text-box p.highlight {
+  color: #FF5C5C;
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm .item.warm .animation-canvas .popup-box {
+  top: 90px;
+  left: 159px;
+  width: 57px;
+  height: 64px;
+  border: 2px solid #FF5C5C;
+  background-color: rgba(255, 92, 92, 0.6);
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .group-coolwarm .item.warm .animation-canvas .chart-area {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-coolwarm-chartAreaWarm.svg");
+}
+main.product-main-content .product-section-temperature .section-contents-coolwarm .body .txt {
+  margin-top: 35px;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .head .description {
+  margin-top: 10px;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season {
+  display: flex;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-4season-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item {
+  position: relative;
+  padding: 78px 0 137px;
+  flex: 1 1 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 146px;
+  color: #fff;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  content: "";
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item > * {
+  position: relative;
+  z-index: 2;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .top {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .top > .tit {
+  font-size: 28px;
+  line-height: 52px;
+  letter-spacing: -0.9px;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .bot > .temper-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 140px;
+  height: 294px;
+  padding: 44px 6px 6px 6px;
+  background-color: RGBA(0, 0, 0, 0.15);
+  border-radius: 100px;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .bot > .temper-box > .temper > .unit {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .bot > .temper-box > .temper > .unit > span {
+  display: block;
+  font-size: 13px;
+  line-height: 16px;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .bot > .temper-box > .temper > .temp {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.02rem;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .bot > .temper-box > .indoor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 82px;
+  opacity: 0.8;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .item .bot > .temper-box > .mat {
+  padding: 40px 0 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 152px;
+  background-color: RGBA(0, 0, 0, 0.3);
+  border-radius: 100px;
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .spring::after {
+  background: linear-gradient(to bottom, rgba(157, 255, 131, 0.69) 0%, rgba(95, 80, 67, 0.39) 93%);
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .summer::after {
+  background: linear-gradient(to bottom, rgba(0, 170, 255, 0.69) 0%, rgba(95, 80, 67, 0.39) 59%);
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .fall::after {
+  background: linear-gradient(to bottom, rgba(255, 106, 0, 0.69) 0%, rgba(95, 80, 67, 0.39) 75%);
+}
+main.product-main-content .product-section-temperature .section-contents-4season .group-4season .winter::after {
+  background: linear-gradient(to bottom, rgb(217, 217, 217) 0%, rgba(95, 80, 67, 0.39) 93%);
+}
+main.product-main-content .product-section-AI .section-contents-algorithm {
+  margin-top: 60px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .disclaimer {
+  color: #CFCFCF;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .head {
+  padding: 0;
+  position: absolute;
+  top: 572px;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .head .title {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 36px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body {
+  padding: 0;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .video-wrap > video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .ai-app-mockup {
+  display: none;
+  position: absolute;
+  top: 111px;
+  left: 879px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item figcaption {
+  margin-top: 20px;
+  padding: 10px 16px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 5px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item figcaption .highlight {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .Cool {
+  background-color: #52A3FF;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .Warm {
+  background-color: #FF5C5C;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas {
+  position: relative;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas .arrow-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas .arrow-box .pin-arrow {
+  position: absolute;
+  top: 0;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas .chart-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas .chart-area.layer1 {
+  width: 0%;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas .chart-area.layer2 {
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas .arrow-box .pin-arrow.up {
+  opacity: 0;
+  transform: translateY(5px);
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas .arrow-box .pin-arrow.down {
+  opacity: 0;
+  transform: translateY(-5px);
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas[data-motion-visible=true] .chart-area.layer1 {
+  width: 100%;
+  transition: width 2000ms linear;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas[data-motion-visible=true] .chart-area.layer2 {
+  animation: algorithmFade 1500ms linear infinite;
+  animation-delay: 2000ms;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas[data-motion-visible=true] .arrow-box .pin-arrow.up {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms linear;
+  transition-delay: 2000ms;
+  animation: algorithmArrowUp 1500ms linear;
+  animation-iteration-count: infinite;
+  animation-delay: 3000ms;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm figure.item .animation-canvas[data-motion-visible=true] .arrow-box .pin-arrow.down {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 500ms linear;
+  transition-delay: 2000ms;
+  animation: algorithmArrowDown 1500ms linear;
+  animation-iteration-count: infinite;
+  animation-delay: 3000ms;
+}
+@keyframes algorithmArrowUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes algorithmArrowDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes algorithmFade {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.cool .animation-canvas .arrow-box .pin-arrow:nth-child(1) {
+  top: 72px;
+  left: 116px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.cool .animation-canvas .arrow-box .pin-arrow:nth-child(2) {
+  top: 72px;
+  left: 210px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.cool .animation-canvas .arrow-box .pin-arrow:nth-child(3) {
+  top: 72px;
+  left: 309px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.cool .animation-canvas .arrow-box .pin-arrow:nth-child(4) {
+  top: 72px;
+  left: 408px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.cool .animation-canvas .chart-area.layer1 {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-algorithm-chartAreaCool.svg");
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.cool .animation-canvas .chart-area.layer2 {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-algorithm-chartAreaCool2.svg");
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.warm .arrow-box .pin-arrow:nth-child(1) {
+  top: 112px;
+  left: 148px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.warm .arrow-box .pin-arrow:nth-child(2) {
+  top: 112px;
+  left: 251px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.warm .arrow-box .pin-arrow:nth-child(3) {
+  top: 112px;
+  left: 366px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.warm .arrow-box .pin-arrow:nth-child(4) {
+  top: 74px;
+  left: 406px;
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.warm .arrow-box .pin-arrow:nth-child(4) > img {
+  transform: rotate(180deg);
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.warm .animation-canvas .chart-area.layer1 {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-algorithm-chartAreaWarm.svg");
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .body .group-algorithm .item.warm .animation-canvas .chart-area.layer2 {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-algorithm-chartAreaWarm2.svg");
+}
+main.product-main-content .product-section-AI .section-contents-algorithm .foot {
+  padding: 0;
+  position: absolute;
+  left: 116px;
+  bottom: 32px;
+  text-align: left;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .head h3.title {
+  font-size: 48px;
+  line-height: 58px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep {
+  margin-top: 60px;
+  padding-top: 300px;
+  height: 778px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-experiment-bg.png");
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item .graph-wrap {
+  position: relative;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item .graph-wrap .graph .balloon {
+  position: absolute;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item .graph-wrap .graph-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item .graph-wrap .graph-label .label {
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #D9D9D9;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item .graph-wrap .graph-label .label::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #C3C3C3;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item > .label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #ffffff;
+  border-radius: 5px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.cool .graph-wrap .graph .balloon1 {
+  top: 0;
+  left: 140px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.cool .graph-wrap .graph .balloon2 {
+  top: 111px;
+  left: 320px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.cool .graph-wrap .graph-label .label.on {
+  color: #52A3FF;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.cool .graph-wrap .graph-label .label.on::before {
+  background-color: #52A3FF;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.cool > .label {
+  background-color: #52A3FF;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.warm .graph-wrap .graph .balloon1 {
+  top: 17px;
+  left: 141px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.warm .graph-wrap .graph .balloon2 {
+  top: 120px;
+  left: 313px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.warm .graph-wrap .graph-label .label.on {
+  color: #FF5C5C;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.warm .graph-wrap .graph-label .label.on::before {
+  background-color: #FF5C5C;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleep .group-experimentSleep .item.warm > .label {
+  background-color: #FF5C5C;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation {
+  position: relative;
+  margin-top: 60px;
+  padding-top: 0;
+  height: 778px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-experiment-bg.jpg");
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap {
+  position: relative;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .balloon {
+  position: absolute;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .balloon > i.arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 16px;
+  height: 30px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-experimentSleep-coolArrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .base {
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  height: 270px;
+  border-bottom: 2px solid RGBA(255, 255, 255, 0.3);
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .base .bar-wrap {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 17px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .base .bar-wrap .bar {
+  border-radius: 3px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .base .bar-wrap .bar > span {
+  font-size: 13px;
+  color: #fff;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .base .bar-wrap .noUseBar {
+  width: 40px;
+  background: linear-gradient(180deg, #AAA 26.92%, rgba(201, 201, 201, 0) 100%);
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph .base .bar-wrap .AIUseBar {
+  width: 40px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph-label {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph-label .label {
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #D9D9D9;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item .graph-wrap .graph-label .label::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #C3C3C3;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item > .label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #ffffff;
+  border-radius: 5px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph-label .label.on {
+  color: #52A3FF;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph-label .label.on::before {
+  background-color: #52A3FF;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .balloon > i.arrow {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-experimentSleep-coolArrow.svg");
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .balloon1 {
+  top: -62px;
+  left: 100px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .balloon1 > i.arrow {
+  top: 34px;
+  right: 10px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .balloon2 {
+  top: 50px;
+  right: -20px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .balloon2 > i.arrow {
+  top: 30px;
+  right: 20px;
+  transform: rotate(180deg);
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .base .bar-wrap:nth-child(1) .noUseBar {
+  height: 190px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .base .bar-wrap:nth-child(1) .AIUseBar {
+  height: 242px;
+  background: linear-gradient(180deg, #70AEFF 65%, rgba(67, 104, 153, 0) 100%);
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .base .bar-wrap:nth-child(2) .noUseBar {
+  height: 222px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .graph .base .bar-wrap:nth-child(2) .AIUseBar {
+  height: 131px;
+  background: linear-gradient(180deg, #70AEFF 65%, rgba(67, 104, 153, 0) 100%);
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(1) .AIUseBar,
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(2) .AIUseBar {
+  height: 0;
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(1) .AIUseBar > span,
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(2) .AIUseBar > span {
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .balloon1 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .balloon1 > i.arrow {
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .balloon2 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas.graph .balloon2 > i.arrow {
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(1) .AIUseBar {
+  opacity: 1;
+  height: 242px;
+  transition: all 1000ms ease-in-out;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(1) .AIUseBar > span {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+  transition-delay: 1000ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(2) .AIUseBar {
+  opacity: 1;
+  height: 131px;
+  transition: all 1000ms ease-in-out;
+  transition-delay: 300ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(2) .AIUseBar > span {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+  transition-delay: 1300ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon1 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 240ms linear;
+  transition-delay: 1200ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon1 > i.arrow {
+  opacity: 1;
+  transition: opacity 500ms linear;
+  transition-delay: 1300ms;
+  animation: balloonAnimationUP 1s linear infinite;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon2 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 240ms linear;
+  transition-delay: 1500ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon2 > i.arrow {
+  opacity: 1;
+  transition: opacity 500ms linear;
+  transition-delay: 1600ms;
+  animation: balloonAnimationDown 1s linear infinite;
+}
+@keyframes balloonAnimationUP {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+@keyframes balloonAnimationDown {
+  0% {
+    transform: translateY(5px) rotate(180deg);
+  }
+  50% {
+    transform: translateY(0) rotate(180deg);
+  }
+  100% {
+    transform: translateY(5px) rotate(180deg);
+  }
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.cool > .label {
+  background-color: #52A3FF;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph-label .label.on {
+  color: #FF5C5C;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph-label .label.on::before {
+  background-color: #FF5C5C;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .balloon > i.arrow {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-experimentSleep-warmArrow.svg");
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .balloon1 {
+  top: -45px;
+  left: 100px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .balloon1 > i.arrow {
+  top: 34px;
+  right: 10px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .balloon2 {
+  top: 60px;
+  right: -30px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .balloon2 > i.arrow {
+  top: 35px;
+  right: 20px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .base .bar-wrap:nth-child(1) .noUseBar {
+  height: 176px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .base .bar-wrap:nth-child(1) .AIUseBar {
+  height: 225px;
+  background: linear-gradient(180deg, #FF5C5C 65%, rgba(255, 49, 49, 0) 100%);
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .base .bar-wrap:nth-child(2) .noUseBar {
+  height: 47px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .graph .base .bar-wrap:nth-child(2) .AIUseBar {
+  height: 121px;
+  background: linear-gradient(180deg, #FF5C5C 65%, rgba(255, 49, 49, 0) 100%);
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(1) .AIUseBar,
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(2) .AIUseBar {
+  height: 0;
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(1) .AIUseBar > span,
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .base .bar-wrap:nth-child(2) .AIUseBar > span {
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .balloon1 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .balloon1 > i.arrow {
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .balloon2 {
+  transform: translateY(10px);
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas.graph .balloon2 > i.arrow {
+  opacity: 0;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(1) .AIUseBar {
+  opacity: 1;
+  height: 225px;
+  transition: all 1000ms ease-in-out;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(1) .AIUseBar > span {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+  transition-delay: 1000ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(2) .AIUseBar {
+  opacity: 1;
+  height: 121px;
+  transition: all 1000ms ease-in-out;
+  transition-delay: 300ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .base .bar-wrap:nth-child(2) .AIUseBar > span {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+  transition-delay: 1300ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon1 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 240ms linear;
+  transition-delay: 1200ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon1 > i.arrow {
+  opacity: 1;
+  transition: opacity 500ms linear;
+  transition-delay: 1300ms;
+  animation: balloonAnimationUP 1s linear infinite;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon2 {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 240ms linear;
+  transition-delay: 1500ms;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm .graph-wrap .animation-canvas[data-motion-visible=true].graph .balloon2 > i.arrow {
+  opacity: 1;
+  transition: opacity 500ms linear;
+  transition-delay: 1600ms;
+  animation: balloonAnimationUP 1s linear infinite;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentSleepAnimation .group-experimentSleep .item.warm > .label {
+  background-color: #FF5C5C;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentApp .group-experimentApp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 37px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentApp .group-experimentApp > .item {
+  flex: 1 1 50%;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentApp .group-experimentApp > .item > .box-gray {
+  padding: 36px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 534px;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentApp .group-experimentApp > .item > .box-gray .top > p {
+  margin-top: 18px;
+}
+main.product-main-content .product-section-AI .section-contents-experiment .experimentApp .group-experimentApp > .item > .disclaimer {
+  margin-top: 20px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange {
+  position: relative;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 15;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap {
+  position: absolute;
+  top: 40px;
+  left: 55px;
+  display: flex;
+  gap: 25px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a {
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #B5B5B5;
+  border-radius: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a > i.icon {
+  width: 63px;
+  height: 63px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a > span {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.44px;
+  color: #ffffff;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a.btn-cool > i.icon {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-modeChange-iconCool.svg");
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a.btn-cool.active {
+  background-color: #52A3FF;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a.btn-cool.active > i.icon {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-modeChange-iconCool-active.svg");
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a.btn-warm > i.icon {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-modeChange-iconWarm.svg");
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a.btn-warm.active {
+  background-color: #FF5C5C;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .button-wrap > a.btn-warm.active > i.icon {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-modeChange-iconWarm-active.svg");
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .text-box {
+  padding: 41px 0 38px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.35);
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-top .text-box > p {
+  margin-top: 21px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item {
+  position: relative;
+  display: none;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .disclaimer-list {
+  position: absolute;
+  top: 120px;
+  left: 55px;
+  text-align: left;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .disclaimer-list .disclaimer {
+  color: #ffffff;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .layer-overlay {
+  position: absolute;
+  right: 94px;
+  bottom: 173px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature {
+  margin: 0 auto;
+  position: absolute;
+  top: 235px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .left-temperature,
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .right-temperature,
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: baseline;
+  text-align: right;
+  flex: 0 0 190px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .left-temperature > span,
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .right-temperature > span,
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer > span {
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1.16px;
+  font-family: "Noto Sans KR", "NanumGothicCoding", "Fira Mono", "Consolas", "Courier New", monospace;
+  font-weight: bold;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .left-temperature > small,
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .right-temperature > small,
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer > small {
+  display: inline-block;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -0.8px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .left-temperature {
+  flex-direction: row;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .right-temperature {
+  flex-direction: row;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer {
+  margin-top: 0;
+  flex: 0 0 200px;
+  display: block;
+  text-align: center;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer .text-box {
+  margin-top: -14px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer .text-box p:first-child {
+  color: #fff;
+  font-size: 32px;
+  line-height: 34px;
+  font-weight: bold;
+  letter-spacing: -0.64px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer .text-box p:first-child > .small {
+  font-size: 24px;
+  line-height: 131%;
+  letter-spacing: -0.48px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .group-temperature .center-thermometer .text-box p:last-child {
+  color: #fff;
+  font-size: 18px;
+  line-height: 131%;
+  letter-spacing: -0.36px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas .layer-overlay {
+  opacity: 0;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item .animation-canvas[data-motion-visible=true] .layer-overlay {
+  opacity: 1;
+  transition: opacity 2000ms linear;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item.active {
+  display: block;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item.cool .animation-canvas .layer-overlay {
+  right: 100px;
+  bottom: 173px;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item.cool .animation-canvas .group-temperature .left-temperature {
+  justify-content: center;
+}
+main.product-main-content .product-section-modeControl .group-modeChange .layer-bot .item.warm .animation-canvas .layer-overlay {
+  right: 97px;
+  bottom: 167px;
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing {
+  height: 956px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-sensing-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing .head {
+  position: relative;
+  z-index: 20;
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing .body {
+  position: relative;
+  z-index: 20;
+  padding: 400px 13px 0;
+  text-align: left;
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing .body .txt-group {
+  margin-left: 63px;
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing .body .txt-group .information {
+  margin-top: 22px;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(250, 250, 250);
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing .body .txt-group .information::before {
+  content: "";
+  margin-right: 5px;
+  display: inline-block;
+  width: 15px;
+  height: 14px;
+  background: url('data:image/svg+xml;utf8,<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.5 1.4C10.5877 1.4 13.1 3.9123 13.1 7C13.1 10.0877 10.5877 12.6 7.5 12.6C4.4123 12.6 1.9 10.0877 1.9 7C1.9 3.9123 4.4123 1.4 7.5 1.4ZM7.5 0C3.6339 0 0.5 3.1339 0.5 7C0.5 10.8661 3.6339 14 7.5 14C11.3661 14 14.5 10.8661 14.5 7C14.5 3.1339 11.3661 0 7.5 0ZM8.2 9.1H6.8V10.5H8.2V9.1ZM6.8 7.7H8.2L8.55 3.5H6.45L6.8 7.7Z" fill="%23DDDDDD"/></svg>') no-repeat center/contain;
+  vertical-align: -2px;
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing .body .txt-group > p {
+  margin-top: 3px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.36px;
+  font-weight: 700;
+}
+main.product-main-content .product-section-modeControl .section-contents-sensing .autoPlayVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover {
+  margin-top: 20px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover {
+  padding: 74px 0 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-twoWayCover-bg.jpg");
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+  color: #fff;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover .item .imgCanvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 290px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover .item .imgCanvas > .txt {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover .item > .txt .tit {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover .item > .txt p {
+  margin-top: 5px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover .item.coolMode .imgCanvas {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-twoWayCover-bgCool.png");
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCover .group-twoWayCover .item.warmMode .imgCanvas {
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-twoWayCover-bgWarm.png");
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverInspection .group-inspection {
+  display: flex;
+  justify-content: space-between;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverInspection .group-inspection .item {
+  padding: 22px 21px;
+  background-color: #F4F4F4;
+  border-radius: 5px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverInspection .group-inspection .item .top .tit {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverInspection .group-inspection .item .top .subtit {
+  font-size: 12px;
+  line-height: 20px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverInspection .group-inspection .item .bot {
+  margin-top: 24px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverInspection .group-inspection .item .bot .img {
+  padding: 23px 30px 22px 25px;
+  background-color: #fff;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverInspection .group-inspection .item .bot .txt {
+  padding: 0 35px 23px 25px;
+  text-align: left;
+  background-color: #fff;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverPicture .group-detailCut {
+  display: flex;
+  justify-content: space-between;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverPicture .group-detailCut > figure {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverPicture .group-detailCut > figure figcaption p {
+  font-size: 16px;
+  line-height: 19px;
+}
+main.product-main-content .product-section-twoWayCover .section-contents-twoWayCover .twoWayCoverPicture .group-detailCut > figure figcaption p .highlight {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+main.product-main-content .product-section-slimMat .section-contents-slimMat .group-slimMat {
+  padding: 310px 0 53px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/section-contents-slimMat-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+main.product-main-content .product-section-slimMat .section-contents-slimMat .group-slimMat > figure {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 18px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+main.product-main-content .product-section-slimMat .section-contents-slimMat .group-slimMat > figure > img {
+  border-radius: 5px;
+  overflow: hidden;
+}
+main.product-main-content .product-section-remoteControl {
+  /* 개별 스타일 없음 */
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-function {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-function figure {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-function figure > figcaption > h3 {
+  margin-bottom: 12px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.6px;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons {
+  margin: 60px 0 0 0;
+  padding: 0 118px;
+  display: grid;
+  gap: 15px 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../images/sleep_2024/four_seasons/emf500/pc/product-section-sleepHub-icons.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-temperature-highlow {
+  background-position: 0 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-timer {
+  background-position: -80px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-diagnosis {
+  background-position: -160px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-lock {
+  background-position: -240px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-leak {
+  background-position: -320px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-temperature-protect {
+  background-position: -400px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-water {
+  background-position: -480px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-connect {
+  background-position: -560px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-heater {
+  background-position: -640px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-freeze {
+  background-position: -720px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-fuse {
+  background-position: -800px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-motion {
+  background-position: -880px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-temperature-sensor {
+  background-position: -960px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-fire {
+  background-position: -1040px 0;
+}
+main.product-main-content .product-section-sleepHub .section-contents-function .group-grid-functionIcons .item i.icon-level {
+  background-position: -1120px 0;
+}
+main.product-main-content .product-info .info-contents-customer-service .body .box-sticker-warranty {
+  padding: 62px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 120px;
+  border-radius: 5px;
+  background-color: #F7F7F7;
+}
+main.product-main-content .product-info .info-contents-customer-service .body .box-sticker-warranty > figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+}
+main.product-main-content .product-info .info-contents-customer-service .body .box-sticker-warranty > figcaption > p {
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: -0.176px;
+}
+main.product-main-content .product-info .info-contents-customer-service .body .box-sticker-warranty > figcaption > p.highlight {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.468px;
+}
+main.product-main-content .product-info .info-contents-customer-service .body .box-sticker-warranty > figcaption > address {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+}
+main.product-main-content .product-info .info-contents-awards .body .box-awards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+main.product-main-content .product-info .info-contents-awards .body .box-awards > .item {
+  padding: 20px 30px;
+  flex: 1 1 520px;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+}
+main.product-main-content .product-info .info-contents-awards .body .box-awards > .item > figure {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+main.product-main-content .product-info .info-contents-awards .body .box-awards > .item > figure > img {
+  width: 110px;
+  height: 80px;
+}
+main.product-main-content .product-info .info-contents-awards .body .box-awards > .item > figure > figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.32px;
+}
+main.product-main-content .product-info .info-contents-awards .body .box-awards > .item > figure > figcaption > small {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.26px;
+}
+main.product-main-content .product-info .info-contents-product-spec .body .box-product-size {
+  padding: 54px 0 48px;
+  border-radius: 5px;
+  border: 1px solid #E6E6E6;
+}
+main.product-main-content .product-info .info-contents-product-spec .body .box-product-size > .wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+main.product-main-content .product-info .info-contents-product-spec .body .box-product-size > .wrapper figure figcaption {
+  color: #202020;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+}
+main.product-main-content .product-info .info-contents-product-spec .body .box-product-size > .wrapper figure:nth-child(2) > figcaption {
+  margin-left: 71px;
+}
+main.product-main-content .product-info .info-contents-product-spec .body .box-product-size > .wrapper figure:nth-child(3) > figcaption {
+  margin-left: 85px;
+}
+main.product-main-content .product-info .info-contents-product-spec .foot {
+  margin-top: 45px;
+}
+main.product-main-content .product-info .info-contents-product-spec .foot .box-disclaimer {
+  padding: 40px 50px 45px;
+  border-radius: 5px;
+  border: 1px solid #E6E6E6;
+}
+main.product-main-content .product-info .info-contents-product-spec .foot .box-disclaimer h6.title {
+  text-align: left;
+}
+main.product-main-content .product-info .info-contents-product-spec .foot .box-disclaimer > ul {
+  margin-top: 22px;
+}
+main.product-main-content .product-info .info-contents-product-spec .foot .box-disclaimer > ul > li {
+  position: relative;
+  padding: 0 0 0 10px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.26px;
+}
+main.product-main-content .product-info .info-contents-product-spec .foot .box-disclaimer > ul > li::before {
+  position: absolute;
+  display: inline-block;
+  top: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "*";
+}
+main.product-main-content .product-info .info-contents-footnote {
+  margin-top: 40px;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote {
+  padding: 40px 70px;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol {
+  position: relative;
+  padding: 0 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol > li {
+  position: relative;
+  font-size: 13px;
+  line-height: 20px;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol > li em {
+  font-weight: 700;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol > li span.number {
+  position: absolute;
+  top: 0;
+  left: -16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol > li > ul {
+  padding: 0 0 0 25px;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol > li > ul > li {
+  list-style: disc outside;
+  font-size: 13px;
+  line-height: 20px;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol > li > ul > li > ul > li {
+  margin-left: 5px;
+  padding-left: 5px;
+  list-style-position: outside;
+  list-style-type: "-";
+  font-size: 13px;
+  line-height: 20px;
+}
+main.product-main-content .product-info .info-contents-footnote .body .box-footnote > ol > li > ul + .disclaimer {
+  margin-top: 22px;
+  color: #888;
+}/*# sourceMappingURL=EMF500-PC.css.map */

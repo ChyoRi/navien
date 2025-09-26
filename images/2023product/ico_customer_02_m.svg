@@ -1,0 +1,21 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<circle id="Ellipse 126" cx="40" cy="40" r="40" fill="white"/>
+<g id="Mask group">
+<mask id="mask0_110_27110" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="48" height="48">
+<rect id="Rectangle 5861" x="16" y="16" width="48" height="48" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_110_27110)">
+<g id="Group 2445">
+<path id="Vector" d="M53.6301 53.6301L52.1953 52.1953" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M37.1287 45.0225L50.0414 32.1098H52.9109L55.7804 26.3709L53.6282 24.2188L47.8893 27.0882V29.9577L34.9766 42.8704" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M38.0833 45.9765L28.3988 55.661C27.8796 56.1802 27.1622 56.5012 26.3695 56.5012C24.785 56.5012 23.5 55.2163 23.5 53.6318C23.5 52.8391 23.821 52.1217 24.3402 51.6025L34.0247 41.918" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M32.8242 40.7188L39.2806 47.1751" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M40.9519 36.8951L37.3471 33.2903C37.6654 32.4788 37.8465 31.5982 37.8465 30.6737C37.8465 26.712 34.6345 23.5 30.6728 23.5C30.2272 23.5 29.7914 23.5421 29.369 23.6211C28.9924 23.6919 28.6857 23.9654 28.5727 24.3313C28.4597 24.6971 28.5593 25.0953 28.8301 25.367L32.4053 28.9422C32.6653 29.2022 32.8258 29.56 32.8258 29.9563C32.8258 30.3527 32.6653 30.7114 32.4053 30.9705L30.9705 32.4053C30.7105 32.6653 30.3518 32.8258 29.9563 32.8258C29.5609 32.8258 29.2013 32.6653 28.9422 32.4053L25.367 28.8301C25.0962 28.5593 24.698 28.4606 24.3313 28.5736C23.9654 28.6866 23.6919 28.9924 23.6211 29.369C23.5421 29.7914 23.5 30.2272 23.5 30.6728C23.5 34.6345 26.712 37.8465 30.6737 37.8465C31.5982 37.8465 32.4788 37.6654 33.2903 37.3471L36.8951 40.9519" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M39.0469 43.1054L51.6009 55.6594C52.1201 56.1786 52.8375 56.4996 53.6302 56.4996C55.2146 56.4996 56.4996 55.2146 56.4996 53.6302C56.4996 52.8375 56.1786 52.1201 55.6594 51.6009L43.1054 39.0469" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M36.0545 43.9453L27.8047 52.1951" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

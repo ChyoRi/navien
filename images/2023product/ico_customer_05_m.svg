@@ -1,0 +1,19 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<circle id="Ellipse 126" cx="40" cy="40" r="40" fill="white"/>
+<g id="Mask group">
+<mask id="mask0_110_27152" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="16" width="48" height="48">
+<rect id="Rectangle 5864" x="16" y="16" width="48" height="48" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_110_27152)">
+<g id="Group 2448">
+<path id="Vector" d="M49.1992 40.0008L43.4492 36.5508V43.4508L49.1992 40.0008Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M57.25 31.9492H34.25V48.0492H57.25V31.9492Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M45.75 48.05V54.95C45.75 56.2207 44.7207 57.25 43.45 57.25H25.05C23.7792 57.25 22.75 56.2207 22.75 54.95V25.05C22.75 23.7792 23.7792 22.75 25.05 22.75H43.45C44.7207 22.75 45.75 23.7792 45.75 25.05V31.95" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M45.75 52.6504H22.75" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M33.0977 27.3496H35.3977" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,992 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-black01: #000000E6;
+  --color-black02: #000000CC;
+  --color-black03: #333;
+  --color-black04: #1a1a1a;
+  --color-white01: #ffffff;
+  --color-white02: #f9f9f9;
+  --color-gray01: #F0F0F0;
+  --color-gray02: #808080;
+  --color-gray03: #00000080;
+  --color-gray04: #e6e6e6;
+  --color-gray05: #ccc;
+  --color-beige: #F5F2EE;
+}
+
+.prd-main-visual {
+  padding: 0;
+}
+
+.prd-main-visual .title {
+  top: 80px;
+}
+
+.prd-main-visual .title span, .prd-main-visual .title strong {
+  font-family: 'Pretendard';
+  color: var(--color-black01);
+}
+
+.prd-main-visual .title .prd-desc {
+  line-height: 34px;
+  margin-bottom: 10px;
+  font-family: 'Pretendard';
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.prd-main-visual .title .prd-name {
+  margin-bottom: 20px;
+  font-family: 'Pretendard';
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.prd-main-visual .title .prd-code {
+  line-height: 28px;
+  font-family: 'Pretendard';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+}
+
+.prd-main-visual .bg-img {
+  border-radius: 0;
+}
+
+.prd-main-visual .award-img {
+  right: 171.37px;
+  bottom: 299.37px;
+}
+
+.prd-main-visual .cert-img {
+  right: 65px;
+  bottom: 299.37px;
+}
+
+.prd-main-summary {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 1050px;
+  height: 284px;
+  margin-bottom: 0;
+  /* padding: 40px 0; */
+  border-radius: 20px;
+  transform: translateX(-50%);
+  background-color: var(--color-white01);
+  font-family: 'Pretendard';
+  z-index: 1;
+}
+
+.prd-main-summary .summary-list {
+  gap: 0;
+}
+
+.prd-main-summary .summary-list li {
+  flex: 1;
+  padding: 0;
+  margin-bottom: 0;
+  width: 0;
+}
+
+.prd-main-summary .summary-list li:not(:first-child)::before {
+  top: 27px;
+  bottom: 21px;
+}
+
+.prd-main-summary .summary-item .text {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-black02);
+  letter-spacing: -0.36px;
+}
+
+.prd-main-summary .summary-item .text strong {
+  line-height: 32px;
+  color: var(--color-black02);
+  letter-spacing: -0.44px;
+}
+
+.prd-goldmark, .prd-tempmanage {
+  padding: 80px 65px;
+  background-color: var(--color-beige);
+  font-family: "Pretendard";
+}
+
+.prd-goldmark .goldmark-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1050px;
+  margin: 0 auto;
+  padding: 40px 0;
+  border-radius: 20px;
+  background-color: var(--color-white01);
+}
+
+.prd-goldmark .goldmark-inner .goldmark-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.prd-goldmark .goldmark-inner .goldmark-header .goldmark-title-wrap {
+  margin-left: 27px;
+}
+
+.prd-goldmark .goldmark-inner .goldmark-header .goldmark-title-wrap .goldmark-title {
+  line-height: 42px;
+  margin-bottom: 6px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+}
+
+.prd-goldmark .goldmark-inner .goldmark-header .goldmark-title-wrap .goldmark-badge {
+  line-height: 28px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: var(--color-gray01);
+  color: var(--color-gray02);
+  letter-spacing: -0.32px;
+}
+
+.prd-goldmark .goldmark-inner .goldmark-desc-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.prd-goldmark .goldmark-inner .goldmark-desc-title {
+  margin-bottom: 5px;
+}
+
+.prd-goldmark .goldmark-inner .goldmark-desc-title,
+.prd-goldmark .goldmark-inner .goldmark-desc {
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: -0.26px;
+  color: var(--color-gray02);
+  text-align: center;
+}
+
+.prd-goldmark .goldmark-inner .goldmarkdesc-organ-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 12px;
+  margin-top: 12px;
+}
+
+.prd-tempmanage .section-title {
+  line-height: 70px;
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.9px;
+  text-align: center;
+}
+
+.prd-sleephabit {
+  position: relative;
+  font-family: 'Pretendard';
+}
+
+.prd-sleephabit .title-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  color: var(--color-black01);
+}
+
+.prd-sleephabit .title-wrap .prd-desc {
+  line-height: 34px;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: -0.56px;
+}
+
+.prd-sleephabit .title-wrap .prd-title {
+  margin: 10px 0 20px;
+  line-height: 70px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.9px;
+  text-align: center;
+}
+
+.prd-sleephabit .title-wrap .prd-detail-desc {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+}
+
+.prd-section {
+  font-family: 'Prentendard';
+}
+
+.prd-section-cozy {
+  padding: 160px 60px 50px;
+  font-family: 'Prentendard';
+}
+
+.prd-section .section-title,
+.prd-section-cozy .section-title,
+.prd-section-sleep-solution .section-title {
+  line-height: 70px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.9px;
+  text-align: center;
+}
+
+.prd-section .title-label,
+.prd-section-cozy .title-label,
+.prd-section-sleep-solution .title-label {
+  display: block;
+  line-height: 28px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+  text-align: center;
+  color: var(--color-black01);
+}
+
+/* 온도의 개인화, 숙면의 최적화 */
+.temperature-control-information .figure-graph {
+  top: 220px;
+  left: 50%;
+  right: 0;
+  width: 828px;
+  height: 148px;
+  transform: translateX(-50%);
+  clip-path: polygon(117px -5px, 755px -5px, 100% 100%, 0 100%)
+}
+
+.temperature-control-information .figure-graph .graph {
+  border-top: 0;
+}
+
+.temperature-control-information .figure-graph .graph .temp {
+  padding-top: 10px;
+}
+
+.temperature-control-information .figure-graph .graph .temp::after {
+  content: "ºC";
+  top: 13px;
+  left: 111px;
+  width: 0;
+  height: 0;
+  border-radius: 0;
+  border: 0;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -0.8px;
+}
+
+.temperature-control-information .graph-label {
+  position: absolute;
+  left: 50%;
+  bottom: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.temperature-control-information .graph-label .graph-label-text {
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+  color: var(--color-white01);
+}
+
+.temperature-control-information .graph-label .graph-label-text span {
+  line-height: 31.68px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@keyframes graphUpLeft {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes graphUpRight {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+.temperature-control-desc {
+  display: block;
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  text-align: center;
+  color: var(--color-gray02);
+}
+
+/* 나만의 AI 숙면 솔루션 */
+.prd-section-sleep-solution {
+  padding: 80px 0;
+}
+
+.sleep-solution-information .sub-sec:not(:first-child) {
+  margin-top: 0;
+}
+
+.sleep-solution-information .sleep-care {
+  height: 1220px;
+}
+
+.sleep-solution-information .sub-sec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sleep-solution-information .sub-sec .sleep-care-title {
+  line-height: 42px;
+  margin-top: 570px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+  color: var(--color-white01);
+  text-align: center;
+}
+
+.sleep-solution-information .sub-sec .sleep-care-title .ram {
+  font-weight: 700;
+  color: #5EE9E4;
+}
+
+.sleep-solution-information .sub-sec .sleep-care-title .deep {
+  font-weight: 700;
+  color: #5CBBFF;
+}
+
+.sleep-solution-information .sub-sec .sleep-care-sub-title {
+  line-height: 32px;
+  margin: 10px 0 50px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+  color: var(--color-white01);
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap {
+  width: 694px;
+  height: 260px;
+  margin-left: 0;
+  margin-bottom: 25px;
+}
+
+.sleep-solution-information .sleep-care-graph {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .graph-item {
+  top: -11px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap[data-motion-visible=true] .line {
+  width: 694px;
+  height: 260px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow {
+  width: 23px;
+  height: 44px;
+  top: 124px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:first-of-type {
+  left: 220px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow + .arrow {
+  left: 393px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:nth-of-type(3) {
+  left: 589px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
+  top: 80px;
+  left: 655px;
+  width: 23px;
+  height: 44px;
+  background: url('../../../images/sleep_2024/water/img_sleep_care_graph_arrow_up.png') no-repeat;
+}
+
+@keyframes arrowUp {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap[data-motion-visible=true] .arrowup {
+  opacity: 1;
+  -webkit-animation: arrowUp 2s infinite ease-in-out;
+          animation: arrowUp 2s infinite ease-in-out;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap img {
+  width: 694px;
+  max-width: 694px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-label {
+  width: 310px;
+  line-height: 32px;
+  margin: 0;
+  padding: 3px 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.44px;
+  background-color: #f88748;
+  color: var(--color-white01);
+}
+
+.sleep-solution-information .sleep-care .text-notice {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sleep-solution-information .sleep-care .text-notice li {
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  color: var(--color-gray05);
+}
+
+/* 나만의 AI 숙면 솔루션 (수면 실험결과 그래프) */
+.sleep-solution-content {
+  padding: 0 60px;
+}
+
+.sleep-solution-information .sleep-management {
+  flex-direction: row;
+}
+
+.sleep-solution-information .sleep-management .management-item {
+  padding: 50px 33px 0;
+  background-color: var(--color-white02);
+}
+
+.sleep-solution-information .sub-sec .sub-title {
+  line-height: 42px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+}
+
+.sleep-solution-information .sleep-management .management-item figcaption {
+  margin-bottom: 30px;
+}
+
+.sleep-solution-information .sleep-management .management-item figcaption {
+  text-align: center;
+}
+
+.sleep-solution-information .sleep-management .text-notice {
+  margin-top: 25px;
+}
+
+.sleep-solution-information .sleep-management .text-notice li {
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  color: var(--color-gray02);
+  text-align: center;
+}
+
+/* 나비엔 스마트 앱 */
+.sleep-solution-information .sub-sec:not(.sleep-management) {
+  margin: 50px 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure {
+  margin-top: 0;
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title-wrap {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  color: var(--color-black04);
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title {
+  position: static;
+  line-height: 70px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.9px;
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-subtitle {
+  line-height: 28px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+}
+
+.sleep-solution-information .sleep-quality .text-notice {
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  transform: translateX(-50%);
+}
+
+.sleep-solution-information .sleep-quality .text-notice li {
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  color: var(--color-gray02);
+  text-align: center;
+}
+
+/* 나만의 AI 숙면 솔루션 (나비엔 스마트 하단 설명 박스) */
+
+.navien-smart-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1050px;
+  height: 161px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: var(--color-white02);
+}
+
+.navien-smart-list {
+  line-height: 28px;
+  margin-left: 30px;
+  font-size: 18px;
+  letter-spacing: -0.28px;
+  color: var(--color-gray02);
+}
+
+.prd-section .section-header-order {
+  margin-bottom: 50px;
+}
+
+.prd-section .section-header-order .title-label {
+  line-height: 34px;
+  margin-bottom: 5px;
+  font-size: 28px;
+  letter-spacing: -0.56px;
+}
+
+.water-management-information .water-management-change {
+  padding: 50px;
+}
+
+/* 초슬림매트 */
+.slim-type-information {
+  min-height: 655px;
+  padding: 53px 77px;
+}
+
+.slim-type-information .slim-type-point {
+  margin-top: 239px;
+}
+
+.slim-type-information .slim-type-point .point-item .title {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.56px;
+  color: var(--color-black03);
+  text-align: center;
+}
+
+/* 숙면매트 온수 전용 커버 */
+.water-cover-information .cover-point-main {
+  height: 608px;
+  padding: 50px;
+}
+.allergy-care-content-wrap {
+  position: absolute;
+  z-index: 2;
+}
+
+.water-cover-information .cover-point-main .title {
+  line-height: 42px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+}
+
+.water-cover-information .cover-point-main .description {
+  margin: 8px 0 20px;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+}
+
+.water-cover-information .cover-point-main .cover-figure {
+  width: 100%;
+}
+
+.water-cover-information .anti-mite-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 433px;
+  height: 300px;
+  padding: 17px 18px;
+  border-radius: 20px;
+  background-color: var(--color-white01);
+}
+
+.water-cover-information .cover-point-main .license {
+  margin: 0 0 10px;
+  padding: 0;
+  font-weight: 700;
+  background-color: var(--color-white01);
+  color: var(--color-gray02);
+  text-align: center;
+}
+
+.water-cover-information .cover-point-main .text-point {
+  margin-top: 49px;
+  font-weight: 500;
+}
+
+.water-cover-information .cover-point-list {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.water-cover-information .cover-point-list li {
+  flex: 1;
+  width: 0;
+}
+
+.water-cover-information .cover-point-list .point-item .title {
+  line-height: 28px;
+  margin-top: 17px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+}
+
+.water-cover-information .cover-point-list .point-item .title .label {
+  line-height: 32px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.44px;
+}
+
+.water-cover-information .water-mat-cover-desc {
+  line-height: 20px;
+  margin-top: 25px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  color: var(--color-gray02);
+  text-align: center;
+}
+
+.prd-section .section-header-order .section-description {
+  text-align: center;
+}
+
+.info-section .title-label {
+  margin-bottom: 10px;
+}
+
+/* 다중 안전 시스템 */
+.safe-system-information .safe-system-list .icon.high-temperature {
+  background-position: -215px -216px;
+}
+
+/* 고객 감동 서비스 */
+.navien-service-information {
+  margin-top: 60px;
+  padding: 40px 0;
+}
+
+.navien-service-information .warranty {
+  width: 149px;
+  height: 149px;
+}
+
+.navien-service-information .warranty img {
+  margin: 0;
+}
+
+.navien-service-information .text {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.18px;
+}
+
+.navien-service-information .text-2 {
+  line-height: 42px;
+  margin: 7px 0 10px;
+  font-size: 28px;
+  letter-spacing: -0.56px;
+}
+
+.navien-service-information .text-3 {
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* 수상 및 인증 */
+.product-awards {
+  padding-bottom: 60px;
+}
+
+.product-awards .product-award-list {
+  gap: 30px;
+}
+
+.product-awards .product-award-list li {
+  width: calc(50% - 15px);
+}
+
+.product-awards .product-award-list .award-item {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 140px;
+  padding-left: 30px;
+  padding-right: 0;
+  gap: 0 28px;
+}
+
+.product-awards .product-award-list .award-item .logo {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+}
+
+.product-awards .product-award-list .award-item .text-main {
+  margin-bottom: 6px;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  color: var(--color-black03);
+}
+
+.product-awards .product-award-list .award-item .text-sub {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+}
+
+/* 제품 스팩 */
+.product-spec {
+  padding-bottom: 0;
+}
+
+.product-spec .spec-size {
+  margin-top: 50px;
+  padding: 40px 45px;
+}
+
+.product-spec .spec-size .size-list {
+  margin-top: 50px;
+}
+
+.product-spec .spec-title {
+  font-size: 22px;
+  letter-spacing: -0.44px;
+  color: var(--color-black03);
+}
+
+.product-spec .spec-size .size-list .type-name {
+  line-height: 32px;
+  margin-top: 0;
+  font-size: 22px;
+  letter-spacing: -0.44px;
+  color: var(--color-black03);
+}
+
+.product-spec .spec-detail {
+  margin-top: 80px;
+}
+
+.product-spec .spec-detail .spec-detail-table th {
+  line-height: 22px;
+  padding-left: 20px;
+  color: var(--color-black03);
+}
+
+.product-spec .spec-detail .spec-detail-table td {
+  padding: 10px 20px;
+}
+
+.product-spec .spec-detail .spec-detail-table th small {
+  font-size: 14px;
+  letter-spacing: -0.28px;
+}
+
+.product-spec .spec-detail .spec-detail-table td .name {
+  line-height: 22px;
+  letter-spacing: -0.32px;
+}
+
+.product-spec .spec-detail .spec-detail-table .logo-kc {
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.product-spec .spec-detail .spec-detail-table .product-number {
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+}
+
+.info-section .text-notice li {
+  line-height: 20px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+
+.product-spec .spec-detail .text-notice li::before {
+  display: none;
+}
+
+/* 공통 */
+.common {
+  padding-top: 50px;
+  border-radius: 10px;
+}
+
+.common-notice {
+  padding: 50px;
+}
+
+.common-notice .title {
+  line-height: 32px;
+  font-size: 22px;
+  letter-spacing: -0.44px;
+}
+
+.common-notice .text-notice {
+  margin-top: 15px;
+  color: var(--color-gray02);
+}
+
+.common-notice .text-notice li::before {
+  display: none;
+}
+
+/* 각주 */
+.footnote {
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.footnote-list {
+  margin-bottom: 9px;
+}
+
+.footnote-list .footnote-item:not(:first-child) {
+  margin-top: 20px;
+}
+
+.footnote-list .footnote-item .index-num {
+  font-weight: 500;
+  color: var(--color-black03);
+}
+
+.footnote-list .item-detail dt {
+  color: var(--color-black03);
+}
+
+.footnote-list .item-detail dt, .footnote-list .item-detail dd {
+  color: var(--color-black03);
+}
+
+.footnote-desc {
+  align-self: flex-start;
+  line-height: 13px;
+  padding-left: 38px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.13px;
+  color: var(--color-gray02);
+}
