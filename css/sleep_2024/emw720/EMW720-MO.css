@@ -14,6 +14,7 @@ body {
   --color-black03: #333;
   --color-black04: #1a1a1a;
   --color-black05: #000;
+  --color-black06: #4d4d4d;
   --color-white01: #ffffff;
   --color-white02: #f9f9f9;
   --color-gray01: #F0F0F0;
@@ -152,6 +153,10 @@ body {
   gap: 0 16px;
 }
 
+.prd-goldmark .goldmark-inner .goldmark-header .goodsleep-goldmark{
+  width: 101px;
+}
+
 .prd-goldmark .goldmark-inner .goldmark-header .goldmark-title {
   line-height: 21px;
   margin-bottom: 6px;
@@ -275,6 +280,86 @@ body {
 }
 
 /* 온도의 개인화, 숙면의 최적화 */
+.temperature-control-information .figure-graph  {
+  top: 46%;
+  left: 50%;
+  width: 93%;
+  height: 66px;
+  transform: translateX(-50%);
+  clip-path: polygon(25px -5px, 286px -5px, 100% 100%, 0 100%)
+}
+
+.temperature-control-information .figure-graph .graph {
+  align-items: flex-start;
+  padding-left: 40px;
+  border-top: 0;
+}
+
+.temperature-control-information .figure-graph .graph .temp {
+  line-height: 25px;
+  padding-top: 12px;
+  font-family: 'Pretendard';
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.temperature-control-information .figure-graph .graph .temp::after {
+  content: "ºC";
+  top: 12px;
+  left: 53px;
+  width: 0;
+  height: 0;
+  border-radius: 0;
+  border: 0;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+}
+
+.temperature-control-information .graph-label {
+  position: absolute;
+  left: 50%;
+  bottom: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.temperature-control-information .graph-label .thermometer {
+  width: 44px;
+}
+
+.temperature-control-information .graph-label .graph-label-text {
+  line-height: 15.84px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.24px;
+  color: var(--color-gray07);
+}
+
+
+@keyframes graphUpLeft {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes graphUpRight {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
 .temperature-control-desc {
   display: block;
   line-height: 16.8px;
@@ -288,7 +373,7 @@ body {
 
 /* 나만의 AI 숙면 솔루션 */
 .sleep-solution-information .sleep-care {
-  padding: 31px 21px 30px;
+  padding: 31px 12px 30px;
   background-color: var(--color-white01);
   height: 629px;
 }
@@ -299,13 +384,14 @@ body {
   flex-direction: column;
 }
 
-.sleep-solution-information .sub-sec .img-sleep-app {
+.sleep-solution-information .sub-sec .sleep-app {
+  width: 79px;
   align-self: flex-end;
 }
 
 .sleep-solution-information .sub-sec .sleep-care-title {
   line-height: 21px;
-  margin: 13.8px 0 16px;
+  margin: 13.8px 0 2px;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.3px;
@@ -321,4 +407,297 @@ body {
 .sleep-solution-information .sub-sec .sleep-care-title .deep {
   font-weight: 600;
   color: #5CBBFF;
+}
+
+.sleep-solution-information .sub-sec .sleep-care-sub-title {
+  line-height: 16.8px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  text-align: center;
+  color: var(--color-gray05);
+}
+
+.sleep-solution-information .sleep-care-graph {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 264px;
+  margin-top: 16px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-label {
+  line-height: 16px;
+  margin-bottom: 10px;
+  padding: 3px 24.5px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #f88748;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap {
+  aspect-ratio: 0;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow {
+  width: 9px;
+  height: 18px;
+  top: 67px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:first-of-type {
+  left: 93px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow + .arrow {
+  left: 154px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:nth-of-type(3) {
+  left: 224px;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
+  top: 43px;
+  left: 247px;
+  width: 9px;
+  height: 18px;
+  background: url('../../../images/sleep_2024/water/mobile/img_sleep_care_graph_arrow_up.png') no-repeat;
+  background-size: contain;
+}
+
+@keyframes arrowUp {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap[data-motion-visible=true] .arrowup {
+  opacity: 1;
+  -webkit-animation: arrowUp 2s infinite ease-in-out;
+          animation: arrowUp 2s infinite ease-in-out;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.sleep-solution-information .sleep-care-graph .graph-wrap .graph-item,
+.sleep-solution-information .sleep-care-graph .graph-wrap img  {
+  aspect-ratio: 0;
+}
+
+.sleep-solution-information .sleep-care .text-notice {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.sleep-solution-information .sleep-care .text-notice li {
+  line-height: 16.8px;
+  padding-left: 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  color: var(--color-gray05);
+}
+
+.prd-section .text-notice li::before {
+  display: none;
+}
+
+/* 나만의 AI 숙면 솔루션 (수면 실험결과 그래프) */
+.sleep-solution-content {
+  margin-top: 80px;
+}
+
+.sleep-solution-information .sub-sec:not(.sleep-management) {
+  border-radius: 0;
+}
+
+.sleep-solution-information .sleep-quality {
+  padding: 0;
+  border: 0;
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure {
+  width: 100%;
+  margin-top: 0;
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title-wrap {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  width: 100%;
+  color: var(--color-black04);
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title {
+  position: static;
+  line-height: 33.6px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+  color: var(--color-black04);
+}
+
+.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-subtitle {
+  line-height: 21px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+}
+
+.sleep-solution-information .sleep-quality .text-notice {
+  position: absolute;
+  bottom: 25.42px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.sleep-solution-information .sleep-quality .text-notice li {
+  line-height: 16.8px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  color: var(--color-gray02);
+}
+
+/* 나비엔 스마트 앱 */
+.sleep-solution-information .sleep-management .management-item {
+  padding: 48.54px 35px 0;
+  align-items: center;
+  gap: 12px;
+}
+
+.sleep-solution-information .sleep-management .management-item figcaption {
+  width: 136px;
+  text-align: center;
+}
+
+.sleep-solution-information .sub-sec .sub-title {
+  line-height: 21px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.sleep-solution-information .sub-sec .sub-description {
+  line-height: 16.8px;
+  margin-top: 10px;
+  color: var(--color-black03);
+}
+
+.sleep-solution-information .sleep-management li {
+  width: 100%;
+}
+
+.sleep-solution-information .sleep-management .management-item img {
+  width: 120px;
+}
+
+.sleep-solution-information .sleep-management .text-notice {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sleep-solution-information .sleep-management .text-notice li {
+  line-height: 16.8px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+.sleep-solution-information .sleep-management > li:not(:first-child) {
+  margin-top: 40px;
+}
+
+/* 나만의 AI 숙면 솔루션 (나비엔 스마트 하단 설명 박스) */
+.navien-smart-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 20px 27.71px;
+  border: 1px solid var(--color-gray04);
+  border-radius: 20px;
+  background-color: var(--color-white02);
+  gap: 0 12px;
+}
+
+.navien-smart-frame .navien-smart-img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--color-white01);
+}
+
+.navien-smart-frame .navien-smart-img-wrap img {
+  width: 23px;
+}
+
+.navien-smart-frame .navien-smart-list .navien-smart-item {
+  line-height: 16.8px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  color: var(--color-gray02);
+}
+
+.navien-smart-frame .navien-smart-list .navien-smart-item:first-of-type {
+  margin-bottom: 3px;
+}
+
+.section-header-order {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.prd-section .section-header-order .title-label {
+  line-height: 26px;
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+  color: var(--color-black06);
+}
+
+.prd-section .section-header-order .section-title {
+  line-height: 34px;
+  font-size: 26px;
+  letter-spacing: -0.52px;
+  color: var(--color-black04);
+}
+
+/* 손쉬운 물 빼기 */
+.water-management-information .water-management-change {
+  padding: 20px 20px 25px;
 }
