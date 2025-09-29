@@ -15,6 +15,7 @@ body {
   --color-black04: #1a1a1a;
   --color-black05: #000;
   --color-black06: #4d4d4d;
+  --color-black07: #202020;
   --color-white01: #ffffff;
   --color-white02: #f9f9f9;
   --color-gray01: #F0F0F0;
@@ -681,7 +682,8 @@ body {
   margin-bottom: 30px;
 }
 
-.prd-section .section-header-order .title-label {
+/* 손쉬운 물 빼기 */
+.water-management .section-header-order .title-label {
   line-height: 26px;
   margin: 0 0 5px;
   font-size: 18px;
@@ -690,14 +692,460 @@ body {
   color: var(--color-black06);
 }
 
-.prd-section .section-header-order .section-title {
+.water-management .section-header-order .section-title {
   line-height: 34px;
   font-size: 26px;
   letter-spacing: -0.52px;
   color: var(--color-black04);
 }
 
-/* 손쉬운 물 빼기 */
 .water-management-information .water-management-change {
   padding: 20px 20px 25px;
+}
+
+/* 초슬림매트 */
+.prd-section .section-header-order .title-label,
+.info-section .section-header .title-label {
+  line-height: 24px;
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+}
+
+.slim-type-information .slim-type-figure {
+  background-color: var(--color-white01);
+}
+
+.slim-type-information .slim-type-point {
+  margin: 212px 17px 40px;
+  padding: 10px;
+}
+
+.slim-type-information .slim-type-point .point-item {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.slim-type-information .slim-type-point .point-item .title {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.slim-type-information .slim-type-point .point-item img {
+  width: 100%;
+  aspect-ratio: 0;
+  height: auto;
+}
+
+
+/* 숙면매트 온수 */
+.water-cover-information .cover-point-main {
+  padding: 45px 16px;
+  aspect-ratio: 0;
+}
+
+.water-cover-information .cover-point-main .title {
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.water-cover-information .cover-point-main .description {
+  margin: 10px 0 30px;
+}
+
+.water-cover-information .anti-mite-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 10px 11px;
+  border-radius: 10px;
+  background-color: var(--color-white01);
+}
+
+.water-cover-information .cover-point-main .license {
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.28px;
+  color: var(--color-gray02);
+  background-color: var(--color-white01);
+  text-align: center;
+}
+
+.water-cover-information .anti-mite-wrap .anti-mite-img-wrap {
+  padding: 10px 54px;
+}
+
+.water-cover-information .cover-point-main .text-point {
+  position: static;
+  line-height: 21px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  white-space: nowrap;
+}
+
+.cover-point-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 27.5px;
+  gap: 20px 0;
+}
+
+.cover-point-list li {
+  width: calc(50% - 10px);
+}
+
+.cover-point-list .point-item .point-item-img-wrap {
+  padding: 0 10px;
+}
+
+.cover-point-list .point-item .title {
+  line-height: 16.8px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.cover-point-list .point-item .title .label {
+  display: block;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.water-mat-cover-desc {
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.26px;
+  color: var(--color-gray02);
+}
+
+/* 다중 안전 시스템 */
+.safe-system .section-header-order .title-label {
+  line-height: 26px;
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+  color: var(--color-black06);
+}
+
+.safe-system .section-header-order .section-title{
+  line-height: 34px;
+  font-size: 26px;
+  letter-spacing: -0.52px;
+  color: var(--color-black04);
+}
+
+/* 나비엔 서비스 */
+.info-section .section-title {
+  line-height: 33.6px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+}
+
+.navien-service-information {
+  flex-direction: row;
+  justify-content: center;
+  padding: 28px 32px;
+  background-color: var(--color-white01);
+  gap: 0 20px;
+}
+
+.navien-service-information .warranty {
+  width: 69px;
+  height: 69px;
+}
+
+.navien-service-information .warranty img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.navien-service-information .text {
+  color: var(--color-black07);
+}
+
+.navien-service-information .text-1 {
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+.navien-service-information .text-2 {
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+}
+
+.navien-service-information .text-3 {
+  line-height: 20px;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.28px;
+}
+
+/* 수상 및 인증 */
+.product-awards .product-award-list {
+  padding: 5px 20px;
+  border: 1px solid var(--color-gray06);
+  border-radius: 10px;
+}
+
+.product-awards .product-award-list li {
+  padding: 20px 0;
+  border-bottom: 0.5px solid var(--color-gray06);
+}
+
+.product-awards .product-award-list li:not(:first-child) {
+  margin-top: 0;
+}
+
+.product-awards .product-award-list li:last-of-type {
+  border-bottom: 0;
+}
+
+.product-awards .product-award-list .award-item {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0;
+  gap: 0 17.75px;
+}
+
+.product-awards .product-award-list .award-item .logo {
+  position: static;
+  width: 82.5px;
+  height: auto;
+}
+
+.product-awards .product-award-list .award-item .text-main.title {
+  line-height: 18px;
+  letter-spacing: -0.9px;
+  word-break: normal;
+}
+
+.product-awards .product-award-list .award-item .text-sub {
+  line-height: 18px;
+  margin-top: 3px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+  color: var(--color-gray02);
+}
+
+/* 제품 스펙 */
+.product-spec {
+  padding-bottom: 0;
+}
+
+.product-spec .spec-size {
+  padding: 35.5px 0 34px;
+}
+
+.product-spec .spec-title {
+  line-height: 24px;
+  color: var(--color-black03);
+}
+
+.product-spec .spec-size .size-list {
+  margin-top: 34.7px;
+  justify-content: flex-start;
+}
+
+.product-spec .spec-size .size-list li:first-of-type {
+  width: 100%;
+}
+
+.product-spec .spec-size .size-list li:nth-of-type(2),
+.product-spec .spec-size .size-list li:last-of-type {
+  width: calc(50% - 10.82px)
+}
+
+.product-spec .spec-size .size-list li:nth-of-type(2) {
+  align-items: flex-start;
+  padding-left: 32.42px;
+}
+
+.product-spec .spec-size .size-list li:last-of-type {
+  align-items: flex-start;
+  margin-left: 21.63px;
+}
+
+.product-spec .spec-size .size-list .type-img.boiler {
+  width: 171px;
+}
+
+.product-spec .spec-size .size-list .type-name {
+  margin-top: 31.8px;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  color: var(--color-black03);
+}
+
+.product-spec .spec-size .size-list .type-name2,
+.product-spec .spec-size .size-list .type-name3 {
+  line-height: 20px;
+  margin-top: 12.51px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.28px;
+  color: var(--color-black03);
+}
+
+.product-spec .spec-size .size-list .type-name2 {
+  padding-left: 63px;
+}
+
+.product-spec .spec-size .size-list .type-name3 {
+  padding-left: 69px;
+}
+
+.product-spec .spec-size .size-list .type-img.mat {
+  width: 127px;
+}
+
+.product-spec .spec-size .size-list .type-img.cover {
+  width: 132px;
+}
+
+.product-spec .spec-detail {
+  margin-top: 70px;
+}
+
+.product-spec .spec-detail .spec-detail-table th {
+  padding: 18px 0;
+  color: var(--color-black03);
+}
+
+.product-spec .spec-detail .spec-detail-table td {
+  line-height: 11px;
+  padding: 18px 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: -0.06px;
+}
+
+.product-spec .spec-detail .spec-detail-table td .name {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.product-spec .spec-detail .spec-detail-table .product-number {
+  font-weight: 500;
+  letter-spacing: -0.22px;
+}
+
+.product-spec .spec-detail .spec-detail-table .logo-kc {
+  display: inline-block;
+  width: 9px;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.product-spec .spec-detail .text-notice {
+  margin-top: 20px;
+}
+
+.product-spec .spec-detail .text-notice li {
+  padding-left: 0;
+  line-height: 16.8px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+  color: var(--color-gray02);
+}
+
+.info-section .text-notice li::before {
+  display: none;
+}
+
+/* 공통 */
+.common {
+  padding-top: 30px;
+}
+
+.common-notice {
+  padding: 18px 22px;
+  border: 1px solid var(--color-gray04);
+  border-radius: 5px;
+}
+
+.info-section .text-notice li {
+  padding-left: 0;
+}
+
+.common-notice .title {
+  line-height: 14px;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+}
+
+.common-notice .text-notice {
+  margin: 10px 0 0;
+  color: var(--color-gray02);
+}
+
+.common-notice .text-notice li {
+  line-height: 11px;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: -0.22px;
+}
+
+/* 각주 */
+.footnote {
+  margin-top: 40px;
+  padding: 20px 23px 20px 20px;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+.footnote-list .footnote-item:not(:first-child) {
+  margin-top: 20px;
+}
+
+.footnote-list .item-detail dt, .footnote-list .item-detail dd {
+  line-height: 11px;
+  font-size: 11px;
+  letter-spacing: -0.22px;
+  color: var(--color-black03);
+}
+
+.footnote-list .item-detail dd {
+  font-weight: 400;
+}
+
+.sub-list ul li {
+  margin-bottom: 4px;
+}
+
+.sub-list ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+.footnote-desc {
+  line-height: 11px;
+  margin-top: 9px;
+  padding-left: 21px;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: -0.11px;
+  color: var(--color-gray02);
 }
