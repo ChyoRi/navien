@@ -281,84 +281,94 @@ body {
 }
 
 /* 온도의 개인화, 숙면의 최적화 */
-.temperature-control-information .figure-graph  {
-  top: 46%;
-  left: 50%;
-  width: 93%;
-  height: 66px;
-  transform: translateX(-50%);
-  clip-path: polygon(25px -5px, 286px -5px, 100% 100%, 0 100%)
+.group-motion-temperatureControlTwin {
+  border-radius: 20px;
+  background-image: url("../../../images/sleep_2024/water/mobile/group-motion-temperatureControlTwin-layerBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
-
-.temperature-control-information .figure-graph .graph {
-  align-items: flex-start;
-  padding-left: 40px;
-  border-top: 0;
+.group-motion-temperatureControlTwin .animation-canvas {
+  position: relative;
+  height: 66.6667vw;
 }
-
-.temperature-control-information .figure-graph .graph .temp {
-  line-height: 25px;
-  padding-top: 12px;
-  font-family: 'Pretendard';
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature {
+  padding-top: 94px;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .left-temperature > *,
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .right-temperature > * {
+  color: #FFF;
+  text-align: center;
+  font-family: "Noto Sans KR", "NanumGothicCoding", "Fira Mono", "Consolas", "Courier New", monospace;
+  font-style: normal;
+  line-height: normal;
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .left-temperature > span,
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .right-temperature > span {
   font-size: 25px;
   font-weight: 800;
   letter-spacing: -0.5px;
 }
-
-.temperature-control-information .figure-graph .graph .temp::after {
-  content: "ºC";
-  top: 12px;
-  left: 53px;
-  width: 0;
-  height: 0;
-  border-radius: 0;
-  border: 0;
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .left-temperature > small,
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .right-temperature > small {
   font-size: 25px;
   font-weight: 400;
-  line-height: 25px;
   letter-spacing: -0.5px;
 }
-
-.temperature-control-information .graph-label {
-  position: absolute;
-  left: 50%;
-  bottom: 69px;
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: translateX(-50%);
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer > img {
+  width: 44.5px;
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer > .text-box > p.t1 {
+  color: #F7F7F7;
   text-align: center;
-}
-
-.temperature-control-information .graph-label .thermometer {
-  width: 44px;
-}
-
-.temperature-control-information .graph-label .graph-label-text {
-  line-height: 15.84px;
   font-size: 12px;
+  font-style: normal;
   font-weight: 600;
-  letter-spacing: -0.24px;
-  color: var(--color-gray07);
+  line-height: 131.5%;
+  letter-spacing: -0.064vw;
 }
-
-
-@keyframes graphUpLeft {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer > .text-box > p.t2 {
+  color: #F7F7F7;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131.5%;
+  letter-spacing: -0.064vw;
 }
-
-@keyframes graphUpRight {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer > .text-box > p.t2 > small {
+  color: #F7F7F7;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 131.5%;
+  letter-spacing: -0.064vw;
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-overlay {
+  opacity: 0;
+}
+.group-motion-temperatureControlTwin .animation-canvas[data-motion-visible=true] .layer-overlay {
+  opacity: 1;
+  transition: opacity 1200ms linear;
 }
 
 .temperature-control-desc {
@@ -379,150 +389,8 @@ body {
   height: 629px;
 }
 
-.sleep-solution-information .sub-sec {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.sleep-solution-information .sub-sec .sleep-app {
-  width: 79px;
-  align-self: flex-end;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-title {
-  line-height: 21px;
-  margin: 13.8px 0 2px;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.3px;
-  color: var(--color-white01);
-  text-align: center;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-title .ram {
-  font-weight: 600;
-  color: #5EE9E4;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-title .deep {
-  font-weight: 600;
-  color: #5CBBFF;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-sub-title {
-  line-height: 16.8px;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: -0.24px;
-  text-align: center;
-  color: var(--color-gray05);
-}
-
-.sleep-solution-information .sleep-care-graph {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 264px;
-  margin-top: 16px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-label {
-  line-height: 16px;
-  margin-bottom: 10px;
-  padding: 3px 24.5px;
-  font-size: 12px;
-  font-weight: 700;
-  background-color: #f88748;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap {
-  aspect-ratio: 0;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow {
-  width: 9px;
-  height: 18px;
-  top: 67px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:first-of-type {
-  left: 93px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow + .arrow {
-  left: 154px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:nth-of-type(3) {
-  left: 224px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
-  top: 43px;
-  left: 247px;
-  width: 9px;
-  height: 18px;
-  background: url('../../../images/sleep_2024/water/mobile/img_sleep_care_graph_arrow_up.png') no-repeat;
-  background-size: contain;
-}
-
-@keyframes arrowUp {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap[data-motion-visible=true] .arrowup {
-  opacity: 1;
-  -webkit-animation: arrowUp 2s infinite ease-in-out;
-          animation: arrowUp 2s infinite ease-in-out;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-transition-delay: 1.5s;
-          transition-delay: 1.5s;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .graph-item,
-.sleep-solution-information .sleep-care-graph .graph-wrap img  {
-  aspect-ratio: 0;
-}
-
-.sleep-solution-information .sleep-care .text-notice {
-  margin-top: 24px;
-  text-align: center;
-}
-
-.sleep-solution-information .sleep-care .text-notice li {
-  line-height: 16.8px;
-  padding-left: 0;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: -0.24px;
-  color: var(--color-gray05);
-}
-
-.prd-section .text-notice li::before {
-  display: none;
+.autoPlayVideo {
+  width: 100%;
 }
 
 /* 나만의 AI 숙면 솔루션 (수면 실험결과 그래프) */
@@ -530,63 +398,257 @@ body {
   margin-top: 80px;
 }
 
-.sleep-solution-information .sub-sec:not(.sleep-management) {
-  border-radius: 0;
+.group-AIsolutionData {
+  padding: 40px 20px 25.42px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../../images/sleep_2024/water/mobile/group-AIsolutionData-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 20px;
 }
-
-.sleep-solution-information .sleep-quality {
-  padding: 0;
-  border: 0;
-}
-
-.sleep-solution-information .sleep-quality .sleep-quality-figure {
-  width: 100%;
-  margin-top: 0;
-}
-
-.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title-wrap {
-  position: absolute;
-  top: 40px;
-  left: 50%;
-  width: 100%;
-  color: var(--color-black04);
-  transform: translateX(-50%);
-  z-index: 1;
+.group-AIsolutionData .top {
   text-align: center;
 }
-
-.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title {
-  position: static;
-  line-height: 33.6px;
-  font-size: 24px;
+.group-AIsolutionData .title {
+  font-size: 6.4vw;
   font-weight: 700;
-  letter-spacing: -0.45px;
-  color: var(--color-black04);
+  line-height: 140%;
+  letter-spacing: -0.12vw; 
 }
-
-.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-subtitle {
-  line-height: 21px;
-  margin-top: 20px;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: -0.3px;
+.group-AIsolutionData .description {
+  line-height: 5.8667vw;
+  margin-top: 5.3333vw;
+  font-size: 4.2667vw;
+  letter-spacing: -0.02rem;
 }
-
-.sleep-solution-information .sleep-quality .text-notice {
-  position: absolute;
-  bottom: 25.42px;
-  left: 50%;
-  width: 100%;
-  transform: translateX(-50%);
+.group-AIsolutionData .mid {
+  display: flex;
+  flex-direction: column;
+  margin: 15.2vw 0 6.6667vw;
+  gap: 5.3333vw;
+}
+.group-AIsolutionData .mid .tit-lbl {
+  margin: 0 auto;
+  display: flex;
+  width: 36.8645vw;
+  height: 4.8304vw;
+  padding: 2.5424vw 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2712vw;
+  border-radius: 2.5413vw;
+  background: #70655D;
+  color: #FFF;
+  font-size: 3.2vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.2667vw;
+  letter-spacing: -0.064vw;
+}
+.group-AIsolutionData .mid .wrap-charts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.6667vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2.1333vw;
+  width: 68.5333vw;
+  height: 27.7333vw;
+  background-image: url("../../../images/sleep_2024/water/mobile/wrap-charts-grid-lines.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 68.5333vw 27.7333vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item {
+  display: flex;
+  flex-direction: column;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.8vw;
+  height: 16.8vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 14.4vw;
+  border-radius: 1.2712vw 1.2712vw 0 0;
+  background-color: #AE9684;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph > span {
+  margin-bottom: 1.8667vw;
+  color: #F7F7F7;
   text-align: center;
+  font-size: 2.9333vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.0293vw;
 }
-
-.sleep-solution-information .sleep-quality .text-notice li {
-  line-height: 16.8px;
-  font-size: 12px;
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph > strong {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -4vw;
+  color: #FF5B00;
+  text-align: center;
+  font-size: 2.9333vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.0963vw;
+  white-space: nowrap;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph.anima {
+  height: 100%;
+  background-color: #F88748;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph.anima .arrow {
+  position: absolute;
+  left: -7.7333vw;
+  top: 0;
+  width: 4.8vw;
+  height: 5.6vw;
+  background-image: url("../../../images/sleep_2024/water/wrap-charts-arrow.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 4.8vw 5.6vw;
+  transform: rotate(-125deg);
+  transform-origin: top center;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.2vw;
+  color: #333;
+  font-size: 2.6667vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4vw; /* 150% */
+  letter-spacing: -0.0533vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph:nth-child(1) {
+  height: 14.9333vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph:nth-child(1) {
+  height: 13.8667vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(1) .chart > .graph:nth-child(1) {
+  height: 10.9333vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(2) .chart > .graph:nth-child(1) {
+  height: 12.8vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph.anima .arrow {
+  top: 1.3333vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph.anima .arrow {
+  top: 1.8667vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(1) .chart > .graph.anima .arrow {
+  top: 4.5333vw;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(2) .chart > .graph.anima .arrow {
+  top: 3.2vw;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima {
+  height: 0;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima > span {
+  opacity: 0;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima .arrow {
+  height: 0;
+  opacity: 0;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima > strong {
+  opacity: 0;
+  transform: translateY(2.6667vw);
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima {
+  height: 100%;
+  transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima > span {
+  opacity: 1;
+  transition-delay: 550ms;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima .arrow {
+  height: 5.6vw;
+  opacity: 1;
+  transition-delay: 800ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima > strong {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1000ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+}
+.group-AIsolutionData .mid .wrap-label {
+  margin-left: 4.8vw;
+  display: flex;
+  gap: 2.6667vw;
+}
+.group-AIsolutionData .mid .wrap-label > li {
+  display: flex;
+  align-items: center;
+  gap: 1.3333vw;
+  color: #808080;
+  font-size: 2.9333vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.5864vw;
+  letter-spacing: -0.2019vw;
+}
+.group-AIsolutionData .mid .wrap-label > li > span {
+  display: inline-block;
+  width: 2.2883vw;
+  height: 2.2883vw;
+  border-radius: 50%;
+  background-color: #AE9684;
+}
+.group-AIsolutionData .mid .wrap-label > li.active > span {
+  background-color: #F88748;
+}
+.group-AIsolutionData .bot p.disc {
+  color: #808080;
+  text-align: center;
+  font-size: 3.2vw;
+  font-style: normal;
   font-weight: 400;
-  letter-spacing: -0.24px;
-  color: var(--color-gray02);
+  line-height: 140%;
+  letter-spacing: -0.064vw;
+}
+.group-AIsolutionData .bot p.disc sup.footnoteLink {
+  line-height: 0;
+}
+.group-AIsolutionData .bot p.disc sup.footnoteLink > a {
+  color: #808080;
+  font-size: 2.1333vw;
+  line-height: 4.5333vw;
 }
 
 /* 나비엔 스마트 앱 */
@@ -861,13 +923,13 @@ body {
   flex-direction: row;
   justify-content: center;
   padding: 28px 32px;
-  background-color: var(--color-white01);
+  background-color: var(--color-white02);
   gap: 0 20px;
 }
 
 .navien-service-information .warranty {
-  width: 69px;
-  height: 69px;
+  width: 76px;
+  height: auto;
 }
 
 .navien-service-information .warranty img {
@@ -885,6 +947,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: -0.24px;
+  white-space: nowrap;
 }
 
 .navien-service-information .text-2 {
@@ -967,6 +1030,11 @@ body {
 .product-spec .spec-size .size-list {
   margin-top: 34.7px;
   justify-content: flex-start;
+  align-items: stretch;
+}
+
+.product-spec .spec-size .size-list li {
+  flex-direction: column;
 }
 
 .product-spec .spec-size .size-list li:first-of-type {
@@ -986,10 +1054,15 @@ body {
 .product-spec .spec-size .size-list li:last-of-type {
   align-items: flex-start;
   margin-left: 21.63px;
+  padding-right: 21.75px;
+}
+
+.product-spec .spec-size .size-list .boiler-img-wrap {
+  width: 51.356%;
 }
 
 .product-spec .spec-size .size-list .type-img.boiler {
-  width: 171px;
+  width: 100%;
 }
 
 .product-spec .spec-size .size-list .type-name {
@@ -1017,12 +1090,17 @@ body {
   padding-left: 69px;
 }
 
-.product-spec .spec-size .size-list .type-img.mat {
-  width: 127px;
+.product-spec .spec-size .size-list .mat-img-wrap {
+  width: 103.5%;
 }
 
+.product-spec .spec-size .size-list .cover-img-wrap {
+  width: 100%;
+}
+
+.product-spec .spec-size .size-list .type-img.mat,
 .product-spec .spec-size .size-list .type-img.cover {
-  width: 132px;
+  width: 100%;
 }
 
 .product-spec .spec-detail {
@@ -1148,4 +1226,8 @@ body {
   font-weight: 400;
   letter-spacing: -0.11px;
   color: var(--color-gray02);
+}
+
+.prd-section .text-notice li::before {
+  display: none;
 }

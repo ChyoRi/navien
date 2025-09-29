@@ -1,20 +1,20 @@
-<svg width="848" height="168" viewBox="0 0 848 168" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.8" filter="url(#filter0_f_2202_27567)">
-<path d="M105 10H418.513V158H10L105 10Z" fill="#FFA53D" fill-opacity="0.7"/>
+<svg width="1050" height="481" viewBox="0 0 1050 481" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8" filter="url(#filter0_f_4769_22959)">
+<path d="M210 217H523.513V365H115L210 217Z" fill="#FFA53D" fill-opacity="0.7"/>
 </g>
-<g opacity="0.8" filter="url(#filter1_f_2202_27567)">
-<path d="M748 12H420V157.484C565.485 159.272 692.515 155.696 838 157.484L748 12Z" fill="#FF7426" fill-opacity="0.7"/>
+<g opacity="0.8" filter="url(#filter1_f_4769_22959)">
+<path d="M853 219H525V364.484C670.485 366.272 797.515 362.696 943 364.484L853 219Z" fill="#FF7426" fill-opacity="0.7"/>
 </g>
 <defs>
-<filter id="filter0_f_2202_27567" x="0" y="0" width="428.513" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f_4769_22959" x="105" y="207" width="428.514" height="168" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_2202_27567"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_4769_22959"/>
 </filter>
-<filter id="filter1_f_2202_27567" x="410" y="2" width="438" height="166" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_f_4769_22959" x="515" y="209" width="438" height="166" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_2202_27567"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_4769_22959"/>
 </filter>
 </defs>
 </svg>

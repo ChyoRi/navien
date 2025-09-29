@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="https://cdn.navienhouse.com/content/css/inc_head_pc.min.css?9c55f0215b298824">
 <link rel="stylesheet" href="./css/sleep_2024/style_emw_pc.css">
 <link rel="stylesheet" href="./css/sleep_2024/emw720/EMW720-PC.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="./js/page/sleep_2024/emw720/custom.js" defer></script>
 
 <article class="prd-detail-wrapper type-emw-720">
 
@@ -174,35 +176,28 @@
     </span>
   </div>
   <div class="temperature-control-information">
-    <figure class="point-item">
-      <!-- <figcaption class="figure-text">
-        <strong class="title">온도 취향이 달라도 문제 없어요</strong>
-        <p class="description">
-          좌우 분리난방으로 두 사람이 써도 쾌적!<br>
-          0.5℃ 단위까지 맞추어 숙면 가능합니다.
-        </p>
-      </figcaption> -->
-      <img src="./images/sleep_2024/water/img_temp_control_2.jpg" alt="매트 좌우 난방 온도가 0.5℃ 단위로 다르게 적용된 것을 나타내는 이미지" width="1060" height="500">
-      <div class="figure-graph" data-motion-visible="false">
-        <div class="graph graph-left">
-          <strong class="temp" data-temp-value="33.5">0</strong>
+    <div class="point-item">
+      <div class="group-motion-temperatureControlTwin">
+        <div class="animation-canvas" data-motion-visible="false">
+          <div class="layer-temperature">
+            <div class="left-temperature">
+              <span data-countup data-countup-start="25" data-countup-end="33.5" data-countup-duration="1200" data-countup-suffix="">33.5</span><small>℃</small>
+            </div>
+            <div class="center-thermometer">
+              <img src="./images/sleep_2024/water/img_thermometer.png" alt="온도계">
+              <div class="text-box">
+                <p class="t1">온도 범위</p>
+                <p class="t2">28 ~ 45<small>℃</small></p>
+              </div>
+            </div>
+            <div class="right-temperature">
+              <span data-countup data-countup-start="25" data-countup-end="36.5" data-countup-duration="1200" data-countup-suffix="">36.5</span><small>℃</small>
+            </div>
+          </div>
+          <div class="layer-overlay"><img src="./images/sleep_2024/water/group-motion-temperatureControlTwin-layerOver.svg" alt="따뜻함 표시"></div>
         </div>
-        <div class="graph graph-right">
-          <strong class="temp" data-temp-value="36.5">0</strong>
-        </div>
-        <!-- <div class="graph-line">
-          <i class="dot"></i><i class="dot"></i><i class="dot"></i>
-          <i class="dot"></i><i class="dot"></i><i class="dot"></i>
-        </div> -->
       </div>
-      <div class="graph-label">
-        <img src="./images/sleep_2024/water/img_thermometer.png" alt="온도범위 28~ 45ºC">
-        <strong class="graph-label-text">
-          온도 범위<br>
-          28 ~ 45<span>ºC</span>
-        </strong>
-      </div>
-    </figure>
+    </div>
     <span class="temperature-control-desc">* 한 쪽 OFF도 가능합니다.</span>
   </div>
 </div>
@@ -218,56 +213,80 @@
     </span>
   </div>
   <div class="sleep-solution-information">
-    <div class="sub-sec sleep-care" style="background-image: url('./images/sleep_2024/water/bg_sleep_solution_care.jpg');">
-      <div class="sleep-care-title">
-        정신적 회복을 돕는 <strong class="ram">렘수면 단계</strong>에는 온도를 낮춰 쾌적하게 해주고<br>
-        신체적 회복을 돕는 <strong class="deep">깊은 수면 단계</strong>에선 온도를 다시 높여 따뜻하게 해줍니다.
-      </div>
-      <p class="sleep-care-sub-title">
-        *입면 후 non-REM단계에서 체온이 떨어지고 REM 단계에서는 상승함.
-      </p>
-      <figure class="sleep-care-graph">
-        <div class="graph-wrap" data-motion-visible="false">
-          <i class="graph-item arrow"></i>
-          <i class="graph-item arrow"></i>
-          <i class="graph-item arrow"></i>
-          <i class="graph-item arrowup"></i>
-          <!-- <span class="graph-item line"><img src="./images/sleep_2024/water/img_sleep_care_graph_blue.png" alt="" width="932" height="221"></span> -->
-          <span class="graph-item line"><img class="orange" src="./images/sleep_2024/water/img_sleep_care_graph_orange.png" alt="" width="694" height="260"></span>
-          <!-- <span class="graph-item dim"></span> -->
-          <!-- <span class="graph-item dots"></span> -->
-          <img src="./images/sleep_2024/water/img_sleep_care_graph.png" alt="" width="694" height="260">
-        </div>
-        <strong class="graph-label">AI수면모드 알고리즘</strong>
-      </figure>
-      <ul class="text-notice">
-        <li>* 스마트폰 마이크가 활성화 되므로 충전 중에 사용하시기 바랍니다.</li>
-        <li>* 수면 서비스는 향후 유료로 전환될 수 있으며, 구체적인 조건 및 동의 방식 등에 대하여 자세히 안내 드리겠습니다.</li>
-      </ul>
+    <div class="video-wrap">
+      <video muted="" loop="" autoplay="" playsinline="" class="autoPlayVideo" data-autoPlayVideo="false">
+        <source src="./images/sleep_2024/water/section-contents-AIsolution-video.mp4" type="video/mp4">
+      </video>
     </div>
     <div class="sleep-solution-content">
-      <div class="sub-sec sleep-quality">
-        <figure class="sleep-quality-figure">
-          <div class="figure-title-wrap">
-            <strong class="figure-title">
-              수면에서 ‘숙면’으로!<br>
-              데이터로 확인해보세요
-            </strong>
-            <p class="figure-subtitle">
-              깊은 수면 시간을 늘려 푹 잔 느낌을 주고<br>
-              렘수면 시간을 늘려 머리를 맑게 해줍니다
-            </p>
+      <div class="product-detail-container">
+        <div class="group-AIsolutionData">
+          <div class="top">
+            <h2 class="title">수면에서 ‘숙면’으로! <br>데이터로 확인해보세요</h2>
+            <div class="description">깊은 수면 시간을 늘려 푹 잔 느낌을 주고 <br>렘수면 시간을 늘려 머리를 맑게 해줍니다</div>
           </div>
-          <img src="./images/sleep_2024/water/img_sleep_quality.jpg" alt="AI수면모드 사용, 미사용 비교 그래프" width="1060" height="1022">
-          <figcaption class="hide">
-            AI수면모드 사용 시, 수면 효율 4.47% 증가, 총 수면시간 27분 증가
-            깊은 수면시간 124% 증가, 렘수면 시간 30.8% 증가, 얕은 수면 비율 7.95% 개선, SIQ 17.8% 개선
-          </figcaption>
-          <ul class="text-notice">
-            <li>* 결과는 사용 환경 및 개인에 따라 차이가 있을 수 있습니다.</li>
-            <li>* 효율 및 수치에 대한 자세한 내용은 페이지 맨 하단을 참고해 주세요<sup><a href="#footnote-1" aria-label="각주 1번">1)</a></sup></li>
-          </ul>
-        </figure>
+          <div class="mid">
+            <div class="tit-lbl">수면 실험결과</div>
+            <div class="wrap-charts animation-canvas" data-motion-visible="false">
+              <div class="grid-lines">
+                <div class="item">
+                  <div class="chart">
+                    <div class="graph"><span>82.79%</span></div>
+                    <div class="graph anima">
+                      <span>87.26%</span>
+                      <strong>4.47%p 증가</strong>
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+                  <div class="txt">수면 효율</div>
+                </div>
+                <div class="item">
+                  <div class="chart">
+                    <div class="graph"><span>5시간 <br>56분 12초</span></div>
+                    <div class="graph anima">
+                      <span>6시간 <br>23분 12초</span>
+                      <strong>27분 증가</strong>
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+                  <div class="txt">총 수면시간</div>
+                </div>
+              </div>
+              <div class="grid-lines">
+                <div class="item">
+                  <div class="chart">
+                    <div class="graph"><span>19분 9초</span></div>
+                    <div class="graph anima">
+                      <span>42분 54초</span>
+                      <strong>124% 증가</strong>
+                    <div class="arrow"></div>
+                    </div>
+                  </div>
+                  <div class="txt">깊은 수면 시간</div>
+                </div>
+                <div class="item">
+                  <div class="chart">
+                    <div class="graph"><span>1시간 <br>1분 37초</span></div>
+                    <div class="graph anima">
+                      <span>1시간 <br>20분 36초</span>
+                      <strong>30.8% 증가</strong>
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+                  <div class="txt">렘수면 시간</div>
+                </div>
+              </div>
+            </div>
+            <ul class="wrap-label">
+              <li><span></span>미사용</li>
+              <li class="active"><span></span>AI수면모드 사용</li>
+            </ul>
+          </div>
+          <div class="bot">
+            <p class="disc">* 결과는 사용 환경 및 개인에 따라 차이가 있을 수 있습니다.</p>
+            <p class="disc">* 효율 및 수치에 대한 자세한 내용은 페이지 맨 하단을 참고해 주세요 <sup class="footnoteLink"><a href="#footnote-1" aria-label="각주 1번">1)</a></sup></p>
+          </div>
+        </div><!--.group-AIsolutionData-->
       </div>
       <ul class="sub-sec sleep-management">
         <li>
@@ -900,47 +919,3 @@
 <!-- //공통 -->
 
 </article>
-
-<script>
-const motions = document.querySelectorAll('*[data-motion-visible="false"]');
-const GAP = 10;
-
-const countMotion = (target, parent) => {
-const targetValue = parseFloat(target.dataset.tempValue);
-const ADD_VALUE = 1.2,
-      COUNT_DELAY = 50;
-let countInterval = '',
-    val = 0;
-countInterval = setInterval(() => {
-  val = val + ADD_VALUE;
-  if (val >= targetValue) {
-    target.innerHTML = targetValue;
-    clearInterval(countInterval);
-  } else {
-    target.innerHTML = val.toFixed(1);
-  }
-}, COUNT_DELAY);
-};
-
-if (motions) {
-window.addEventListener('scroll', () => {
-  motions.forEach(motion => {
-    const motionBottom = motion.getBoundingClientRect().bottom;
-    if (motionBottom <= window.innerHeight + GAP && motionBottom >= GAP) {
-      if (motion.dataset.motionVisible != 'true') {
-        motion.dataset.motionVisible = 'true';
-        if (motion.querySelectorAll('*[data-temp-value]')) {
-          motion.querySelectorAll('*[data-temp-value]').forEach(el => {
-            countMotion(el);
-          });
-        }
-      }
-    } else {
-      if (motion.dataset.motionVisible === 'true') {
-        motion.dataset.motionVisible = 'false';
-      }
-    }
-  });
-});
-}
-</script>

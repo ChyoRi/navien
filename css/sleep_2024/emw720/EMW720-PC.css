@@ -19,6 +19,11 @@
   --color-beige: #F5F2EE;
 }
 
+.prd-detail-wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .prd-main-visual {
   padding: 0;
 }
@@ -272,79 +277,83 @@
 }
 
 /* 온도의 개인화, 숙면의 최적화 */
-.temperature-control-information .figure-graph {
-  top: 220px;
-  left: 50%;
-  right: 0;
-  width: 828px;
-  height: 148px;
-  transform: translateX(-50%);
-  clip-path: polygon(117px -5px, 755px -5px, 100% 100%, 0 100%)
+.group-motion-temperatureControlTwin {
+  border-radius: 20px;
+  background-image: url("../../../images/sleep_2024/water/img_temp_control_2.jpg");
+  background-repeat: no-repeat;
+  background-size: 1050px 482px;
+  background-position: top center;
 }
-
-.temperature-control-information .figure-graph .graph {
-  border-top: 0;
+.group-motion-temperatureControlTwin .animation-canvas {
+  position: relative;
+  height: 481px;
 }
-
-.temperature-control-information .figure-graph .graph .temp {
-  padding-top: 10px;
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature {
+  padding-top: 152px;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.temperature-control-information .figure-graph .graph .temp::after {
-  content: "ºC";
-  top: 13px;
-  left: 111px;
-  width: 0;
-  height: 0;
-  border-radius: 0;
-  border: 0;
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .left-temperature > *,
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .right-temperature > * {
+  color: #FFF;
+  text-align: center;
+  font-family: "Noto Sans KR", "NanumGothicCoding", "Fira Mono", "Consolas", "Courier New", monospace;
+  font-style: normal;
+  line-height: 70px; /* 134.615% */
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .left-temperature > span,
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .right-temperature > span {
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -1.04px;
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .left-temperature > small,
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .right-temperature > small {
   font-size: 40px;
   font-weight: 400;
-  line-height: 70px;
   letter-spacing: -0.8px;
 }
-
-.temperature-control-information .graph-label {
-  position: absolute;
-  left: 50%;
-  bottom: 85px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.temperature-control-information .graph-label .graph-label-text {
-  line-height: 40px;
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer > .text-box > p.t1 {
+  color: #FFF;
   font-size: 30px;
-  font-weight: 600;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 133.333% */
   letter-spacing: -0.6px;
-  color: var(--color-white01);
 }
-
-.temperature-control-information .graph-label .graph-label-text span {
-  line-height: 31.68px;
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer > .text-box > p.t2 {
+  color: #FFF;
   font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131.5%; /* 31.56px */
+  letter-spacing: -0.48px;
+}
+.group-motion-temperatureControlTwin .animation-canvas .layer-temperature .center-thermometer > .text-box > p.t2 > small {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 131.5%; /* 31.56px */
+  letter-spacing: -0.48px;
 }
-
-@keyframes graphUpLeft {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
+.group-motion-temperatureControlTwin .animation-canvas .layer-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
-
-@keyframes graphUpRight {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 100%;
-  }
+.group-motion-temperatureControlTwin .animation-canvas .layer-overlay {
+  opacity: 0;
+}
+.group-motion-temperatureControlTwin .animation-canvas[data-motion-visible=true] .layer-overlay {
+  opacity: 1;
+  transition: opacity 1200ms linear;
 }
 
 .temperature-control-desc {
@@ -363,203 +372,270 @@
   padding: 80px 0;
 }
 
-.sleep-solution-information .sub-sec:not(:first-child) {
-  margin-top: 0;
-}
-
-.sleep-solution-information .sleep-care {
-  height: 1220px;
-}
-
-.sleep-solution-information .sub-sec {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-title {
-  line-height: 42px;
-  margin-top: 570px;
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: -0.56px;
-  color: var(--color-white01);
-  text-align: center;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-title .ram {
-  font-weight: 700;
-  color: #5EE9E4;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-title .deep {
-  font-weight: 700;
-  color: #5CBBFF;
-}
-
-.sleep-solution-information .sub-sec .sleep-care-sub-title {
-  line-height: 32px;
-  margin: 10px 0 50px;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: -0.36px;
-  color: var(--color-white01);
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap {
-  width: 694px;
-  height: 260px;
-  margin-left: 0;
-  margin-bottom: 25px;
-}
-
-.sleep-solution-information .sleep-care-graph {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 0;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .graph-item {
-  top: -11px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap[data-motion-visible=true] .line {
-  width: 694px;
-  height: 260px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow {
-  width: 23px;
-  height: 44px;
-  top: 124px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:first-of-type {
-  left: 220px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow + .arrow {
-  left: 393px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrow:nth-of-type(3) {
-  left: 589px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
-  top: 80px;
-  left: 655px;
-  width: 23px;
-  height: 44px;
-  background: url('../../../images/sleep_2024/water/img_sleep_care_graph_arrow_up.png') no-repeat;
-}
-
-@keyframes arrowUp {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  50% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap .arrowup {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap[data-motion-visible=true] .arrowup {
-  opacity: 1;
-  -webkit-animation: arrowUp 2s infinite ease-in-out;
-          animation: arrowUp 2s infinite ease-in-out;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-transition-delay: 1.5s;
-          transition-delay: 1.5s;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-wrap img {
-  width: 694px;
-  max-width: 694px;
-}
-
-.sleep-solution-information .sleep-care-graph .graph-label {
-  width: 310px;
-  line-height: 32px;
-  margin: 0;
-  padding: 3px 0;
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: -0.44px;
-  background-color: #f88748;
-  color: var(--color-white01);
-}
-
-.sleep-solution-information .sleep-care .text-notice {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.sleep-solution-information .sleep-care .text-notice li {
-  line-height: 20px;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: -0.26px;
-  color: var(--color-gray05);
-}
-
 /* 나만의 AI 숙면 솔루션 (수면 실험결과 그래프) */
 .sleep-solution-content {
   padding: 0 60px;
+  margin-top: 50px;
 }
 
-.sleep-solution-information .sleep-management {
-  flex-direction: row;
+.group-AIsolutionData .top {
+  text-align: center;
 }
 
-.sleep-solution-information .sleep-management .management-item {
-  padding: 50px 33px 0;
-  background-color: var(--color-white02);
-}
-
-.sleep-solution-information .sub-sec .sub-title {
-  line-height: 42px;
-  font-size: 28px;
+.group-AIsolutionData .title {
+  font-family: 'Pretendard';
+  font-size: 48px;
   font-weight: 700;
-  letter-spacing: -0.56px;
+  line-height: 70px;
+  letter-spacing: -0.95px;
 }
 
-.sleep-solution-information .sleep-management .management-item figcaption {
-  margin-bottom: 30px;
+.group-AIsolutionData .description {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.36px;
 }
 
-.sleep-solution-information .sleep-management .management-item figcaption {
+.group-AIsolutionData {
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 1021px;
+  background-image: url("../../../images/sleep_2024/water/group-AIsolutionData-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.group-AIsolutionData .mid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.group-AIsolutionData .mid .tit-lbl {
+  margin: 0 auto;
+  display: flex;
+  width: 290px;
+  height: 38px;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #70655D;
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.44px;
+}
+.group-AIsolutionData .mid .wrap-charts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 50px;
+  width: 539px;
+  height: 170px;
+  background-image: url("../images/PC/wrap-charts-grid-lines.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 539px 170px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item {
+  display: flex;
+  flex-direction: column;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 95px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 99px;
+  border-radius: 10px 10px 0 0;
+  background-color: #AE9684;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph > span {
+  margin-bottom: 3px;
+  color: #F7F7F7;
   text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.16px;
 }
-
-.sleep-solution-information .sleep-management .text-notice {
-  margin-top: 25px;
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph > strong {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -23px;
+  color: #FF5B00;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13.449px;
+  letter-spacing: -0.757px;
 }
-
-.sleep-solution-information .sleep-management .text-notice li {
-  line-height: 20px;
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph.anima {
+  height: 100%;
+  background-color: #F88748;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .chart > .graph.anima .arrow {
+  position: absolute;
+  left: -65px;
+  top: 0;
+  width: 37px;
+  height: 43px;
+  background-image: url("../../../images/sleep_2024/water/wrap-charts-arrow.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 37px 43px;
+  transform: rotate(-125deg);
+  transform-origin: top center;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines .item .txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  color: #333;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.32px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph:nth-child(1) {
+  height: 74px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph:nth-child(1) {
+  height: 62px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(1) .chart > .graph:nth-child(1) {
+  height: 50px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(2) .chart > .graph:nth-child(1) {
+  height: 69px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph.anima .arrow {
+  top: 17px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph.anima .arrow {
+  top: 20px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(1) .chart > .graph.anima .arrow {
+  top: 34px;
+}
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(2) > .item:nth-child(2) .chart > .graph.anima .arrow {
+  top: 18px;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima {
+  height: 0;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima > span {
+  opacity: 0;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima .arrow {
+  height: 0;
+  opacity: 0;
+}
+.group-AIsolutionData .mid .animation-canvas .grid-lines > .item .chart > .graph.anima > strong {
+  opacity: 0;
+  transform: translateY(15px);
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima {
+  height: 100%;
+  transition-delay: 0ms;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima > span {
+  opacity: 1;
+  transition-delay: 550ms;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima .arrow {
+  height: 43px;
+  opacity: 1;
+  transition-delay: 800ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+.group-AIsolutionData .mid .animation-canvas[data-motion-visible=true] .grid-lines > .item .chart > .graph.anima > strong {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 1000ms;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+}
+.group-AIsolutionData .mid .wrap-label {
+  margin-left: 205px;
+  padding: 8px 35.5px;
+  display: flex;
+  width: 543px;
+  gap: 20px;
+}
+.group-AIsolutionData .mid .wrap-label > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #808080;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.32px;
+}
+.group-AIsolutionData .mid .wrap-label > li > span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: #AE9684;
+}
+.group-AIsolutionData .mid .wrap-label > li.active > span {
+  background-color: #F88748;
+}
+.group-AIsolutionData .bot p.disc {
+  color: #808080;
+  text-align: center;
   font-size: 13px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 20px;
   letter-spacing: -0.26px;
-  color: var(--color-gray02);
-  text-align: center;
+}
+.group-AIsolutionData .bot p.disc sup.footnoteLink {
+  line-height: normal;
+}
+.group-AIsolutionData .bot p.disc sup.footnoteLink > a {
+  color: #808080;
+  font-size: 9px;
+  line-height: normal;
 }
 
 /* 나비엔 스마트 앱 */
