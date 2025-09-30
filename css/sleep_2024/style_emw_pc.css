@@ -1663,7 +1663,8 @@
   letter-spacing: -0.2px;
   padding: 0 24px;
 }
-.product-spec .spec-detail .spec-detail-table td .name {
+.product-spec .spec-detail .spec-detail-table td .name,
+.product-spec .spec-detail .spec-detail-table td .type {
   font-size: 16px;
   font-weight: 700;
 }

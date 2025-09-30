@@ -656,6 +656,7 @@ body {
   padding: 48.54px 35px 0;
   align-items: center;
   gap: 12px;
+  background-color: var(--color-white02);
 }
 
 .sleep-solution-information .sleep-management .management-item figcaption {
@@ -674,6 +675,7 @@ body {
   line-height: 16.8px;
   margin-top: 10px;
   color: var(--color-black03);
+  white-space: nowrap;
 }
 
 .sleep-solution-information .sleep-management li {

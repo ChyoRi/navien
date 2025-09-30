@@ -66,18 +66,18 @@
 
 .prd-main-visual .award-img {
   right: 171.37px;
-  bottom: 299.37px;
+  bottom: 379.37px;
 }
 
 .prd-main-visual .cert-img {
   right: 65px;
-  bottom: 299.37px;
+  bottom: 379.37px;
 }
 
 .prd-main-summary {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 80px;
   width: 1050px;
   height: 284px;
   margin-bottom: 0;
@@ -120,9 +120,12 @@
 }
 
 .prd-goldmark, .prd-tempmanage {
-  padding: 80px 65px;
   background-color: var(--color-beige);
   font-family: "Pretendard";
+}
+
+.prd-goldmark {
+  padding: 0 65px 80px;
 }
 
 .prd-goldmark .goldmark-inner {
@@ -193,6 +196,10 @@
   margin-top: 12px;
 }
 
+.prd-tempmanage {
+  padding: 80px 65px;
+}
+
 .prd-tempmanage .section-title {
   line-height: 70px;
   margin-bottom: 50px;
@@ -256,7 +263,6 @@
 .prd-section-cozy .section-title,
 .prd-section-sleep-solution .section-title {
   line-height: 70px;
-  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
   letter-spacing: -0.9px;
@@ -401,6 +407,7 @@
   padding: 80px 50px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 50px;
   height: 1021px;
   background-image: url("../../../images/sleep_2024/water/group-AIsolutionData-bg.jpg");
@@ -446,7 +453,7 @@
   gap: 50px;
   width: 539px;
   height: 170px;
-  background-image: url("../images/PC/wrap-charts-grid-lines.svg");
+  background-image: url("../../images/sleep_2024/water/wrap-charts-grid-lines.svg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 539px 170px;
@@ -646,45 +653,26 @@
   border-radius: 0;
 }
 
-.sleep-solution-information .sleep-quality .sleep-quality-figure {
-  margin-top: 0;
+.sleep-solution-information .sub-sec .sub-title {
+  line-height: 42px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
 }
 
-.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title-wrap {
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  color: var(--color-black04);
-  transform: translateX(-50%);
-  z-index: 1;
+.sleep-solution-information .sleep-management .management-item {
+  padding: 50px 33px 0;
+  background-color: var(--color-white02);
+}
+
+.sleep-solution-information .sleep-management .management-item figcaption {
+  margin-bottom: 30px;
   text-align: center;
 }
 
-.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-title {
-  position: static;
-  line-height: 70px;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: -0.9px;
-}
-
-.sleep-solution-information .sleep-quality .sleep-quality-figure .figure-subtitle {
-  line-height: 28px;
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: -0.36px;
-}
-
-.sleep-solution-information .sleep-quality .text-notice {
-  position: absolute;
-  left: 50%;
-  bottom: 80px;
-  transform: translateX(-50%);
-}
-
-.sleep-solution-information .sleep-quality .text-notice li {
+.sleep-solution-information .sleep-management .text-notice {
   line-height: 20px;
+  margin-top: 25px;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: -0.26px;
@@ -693,7 +681,6 @@
 }
 
 /* 나만의 AI 숙면 솔루션 (나비엔 스마트 하단 설명 박스) */
-
 .navien-smart-frame {
   display: flex;
   align-items: center;
@@ -701,6 +688,7 @@
   width: 1050px;
   height: 161px;
   margin-top: 50px;
+  border: 1px solid var(--color-gray04);
   border-radius: 20px;
   background-color: var(--color-white02);
 }
@@ -738,8 +726,13 @@
   margin-top: 239px;
 }
 
+.slim-type-information .slim-type-point .point-item {
+  padding: 17px 18px;
+}
+
 .slim-type-information .slim-type-point .point-item .title {
   line-height: 28px;
+  margin-bottom: 15px;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.56px;
@@ -749,7 +742,7 @@
 
 /* 숙면매트 온수 전용 커버 */
 .water-cover-information .cover-point-main {
-  height: 608px;
+  height: 607px;
   padding: 50px;
 }
 .allergy-care-content-wrap {
@@ -851,6 +844,11 @@
 .navien-service-information {
   margin-top: 60px;
   padding: 40px 0;
+  background-color: var(--color-white02);
+}
+
+.navien-service {
+  padding-bottom: 50px;
 }
 
 .navien-service-information .warranty {
@@ -887,8 +885,13 @@
   padding-bottom: 60px;
 }
 
+.product-awards .section-header {
+  padding-top: 0;
+}
+
 .product-awards .product-award-list {
   gap: 30px;
+  margin-top: 60px;
 }
 
 .product-awards .product-award-list li {
@@ -973,7 +976,8 @@
   letter-spacing: -0.28px;
 }
 
-.product-spec .spec-detail .spec-detail-table td .name {
+.product-spec .spec-detail .spec-detail-table td .name,
+.product-spec .spec-detail .spec-detail-table td .type {
   line-height: 22px;
   letter-spacing: -0.32px;
 }
