@@ -1,0 +1,147 @@
+:root {
+  --color-black01: #000000E6;
+  --color-black02: #000000CC;
+  --color-black03: #333;
+  --color-black04: #1a1a1a;
+  --color-black05: #000;
+  --color-black06: #4d4d4d;
+  --color-black07: #202020;
+  --color-white01: #ffffff;
+  --color-white02: #f9f9f9;
+  --color-gray01: #F0F0F0;
+  --color-gray02: #808080;
+  --color-gray03: #00000080;
+  --color-gray04: #e6e6e6;
+  --color-gray05: #ccc;
+  --color-gray06: #d9d9d9;
+  --color-gray07: #f7f7f7;
+  --color-beige: #F5F2EE;
+}
+
+/* 나만의 AI 숙면 솔루션 (수면 실험결과 그래프) */
+.sleep-solution-content {
+  margin-top: 0;
+}
+
+.group-AIsolutionData {
+  background-image: url("../../../images/sleep_2024/water/mobile/group-AIsolutionData-bg-520.jpg")
+}
+
+.group-AIsolutionData .sub-title {
+  line-height: 6.4008vw;
+  margin-bottom: 2.1336vw;
+  font-size: 4.2672vw;
+  font-weight: 500;
+  letter-spacing: -0.02rem;
+}
+
+.group-AIsolutionData .main-description {
+  line-height: 5.6007vw;
+  margin: 8.001vw 0 0.5334vw;
+  font-size: 4.0005vw;
+  font-weight: 700;
+  letter-spacing: -0.02rem;
+}
+
+.group-AIsolutionData .description {
+  margin-top: 0;
+}
+
+.group-AIsolutionData .mid {
+  margin: 6.4008vw 0;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph.anima .arrow {
+  top: 3.33vw;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph:nth-child(1) {
+  height: 10.9347vw;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph:nth-child(1) {
+  height: 12.8016vw;
+}
+
+.prd-section .section-header-order .title-label {
+  line-height: 26px;
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+  color: var(--color-black06);
+}
+
+.prd-section .section-header-order .section-title {
+  line-height: 34px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.52px;
+}
+
+/* 매트타입 */ 
+.slim-type-information, .cushion-type-information {
+  padding: 30px 20px 22px
+}
+.slim-type-information .text-main,
+.cushion-type-information .text-main {
+  padding: 0;
+  aspect-ratio: 0;
+  letter-spacing: -0.4px;
+}
+
+.slim-type-information .text-sub,
+.cushion-type-information .text-sub {
+  line-height: 20px;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.28px;
+}
+
+.slim-type-information .slim-type-point {
+  margin: 158.89px 0 0;
+  padding: 20px;
+}
+
+.slim-type-information .slim-type-point .point-item {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.slim-type-information .slim-type-point .point-item .title {
+  width: calc(100% - 140px - 10px);
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.slim-type-information .slim-type-point .point-item img {
+  width: auto;
+  height: 80px;
+}
+
+.cushion-type-information .text-wrap {
+  aspect-ratio: 0;
+}
+
+.cushion-type-information .cushion-type-point {
+  margin: 155.84px 0 0;
+}
+
+.water-cover-information .cover-point-main {
+  padding: 43.92px 15px 40.94px 13px;
+}
+
+.water-cover-information .cover-point-text-wrap {
+  padding-left: 8px;
+}
+
+.water-cover-information .anti-mite-wrap .anti-mite-img-wrap {
+  padding: 9.94px 57.12px 9.86px 54.12px;
+}
+
+.cover-point-list {
+  margin: 0;
+  padding: 40px 34px;
+}

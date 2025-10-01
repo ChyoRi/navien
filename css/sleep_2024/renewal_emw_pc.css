@@ -285,7 +285,7 @@
 /* 온도의 개인화, 숙면의 최적화 */
 .group-motion-temperatureControlTwin {
   border-radius: 20px;
-  background-image: url("../../../images/sleep_2024/water/img_temp_control_2.jpg");
+  background-image: url("../../images/sleep_2024/water/img_temp_control_2.jpg");
   background-repeat: no-repeat;
   background-size: 1050px 482px;
   background-position: top center;
@@ -410,7 +410,7 @@
   justify-content: space-between;
   gap: 50px;
   height: 1021px;
-  background-image: url("../../../images/sleep_2024/water/group-AIsolutionData-bg.jpg");
+  background-image: url("../../images/sleep_2024/water/group-AIsolutionData-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
