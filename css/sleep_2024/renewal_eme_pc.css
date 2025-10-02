@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-black01: #000000E6;
+  --color-black02: #000000CC;
+  --color-black03: #333;
+  --color-black04: #1a1a1a;
+  --color-black05: #000;
+  --color-black06: #4d4d4d;
+  --color-black07: #202020;
+  --color-white01: #ffffff;
+  --color-white02: #f9f9f9;
+  --color-gray01: #F0F0F0;
+  --color-gray02: #808080;
+  --color-gray03: #00000080;
+  --color-gray04: #e6e6e6;
+  --color-gray05: #ccc;
+  --color-gray06: #d9d9d9;
+  --color-gray07: #f7f7f7;
+  --color-beige: #F5F2EE;
+}
+
+.prd-main-visual .award-img {
+  top: 637px;
+}
+
+.prd-main-visual .cert-img {
+  top: 637px;
+}
+
+.prd-main-summary {
+  height: 235px;
+  padding-top: 0;
+  padding: 47px 25px;
+}
+
+.prd-main-summary .summary-list {
+  padding: 0;
+  gap: 0 40px;
+}
+
+.prd-main-summary .summary-list li {
+  flex: auto;
+}
+
+.prd-main-summary .summary-list li:first-of-type,
+.prd-main-summary .summary-list li:nth-of-type(3) {
+  width: 210px;
+}
+
+.prd-main-summary .summary-list li:last-of-type,
+.prd-main-summary .summary-list li:nth-of-type(2) {
+  width: 230px;
+}
+
+.prd-main-summary .summary-list li:not(:first-child)::before {
+  top: -7px;
+  bottom: -7px;
+  left: -20px;
+  height: auto;
+}
+
+.prd-main-summary .summary-item .text {
+  line-height: 18px;
+  color: var(--color-black06);
+}
+
+.prd-main-summary .summary-item .text strong {
+  line-height: 22px;
+  margin-top: 10px;
+  font-size: 22px;
+  color: var(--color-black04);
+}
+
+/* 수면 레시피 */
+.prd-section .section-header {
+  margin-bottom: 40px;
+}
+
+.prd-section .section-header .title-label {
+  font-size: 28px;
+  letter-spacing: -0.56px;
+  color: var(--color-black04);
+}
