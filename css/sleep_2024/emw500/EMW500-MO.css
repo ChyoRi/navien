@@ -1,0 +1,82 @@
+/* 나만의 AI 숙면 솔루션 (수면 실험결과 그래프) */
+.sleep-solution-content {
+  margin-top: 0;
+}
+
+.group-AIsolutionData {
+  background-image: url("../../../images/sleep_2024/water/mobile/group-AIsolutionData-bg-520.jpg")
+}
+
+.group-AIsolutionData .sub-title {
+  line-height: 6.4008vw;
+  margin-bottom: 2.1336vw;
+  font-size: 4.2672vw;
+  font-weight: 500;
+  letter-spacing: -0.02rem;
+}
+
+.group-AIsolutionData .main-description {
+  line-height: 5.6007vw;
+  margin: 8.001vw 0 0.5334vw;
+  font-size: 4.0005vw;
+  font-weight: 700;
+  letter-spacing: -0.02rem;
+}
+
+.group-AIsolutionData .description {
+  margin-top: 0;
+}
+
+.group-AIsolutionData .mid {
+  margin: 6.4008vw 0;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph.anima .arrow {
+  top: 3.33vw;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph:nth-child(1) {
+  height: 10.9347vw;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph:nth-child(1) {
+  height: 12.8016vw;
+}
+
+.prd-section .section-header-order .title-label {
+  line-height: 26px;
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+  color: var(--color-black06);
+}
+
+.prd-section .section-header-order .section-title {
+  line-height: 34px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.52px;
+}
+
+/* 패딩 매트 */
+.two-types-mat {
+  margin-bottom: 50px;
+}
+
+/* 제품 스펙 */
+.product-spec .spec-size .size-list li:last-of-type {
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  align-items: center;
+}
+
+.product-spec .spec-size .size-list .mat-img-wrap {
+  width: 42.5%;
+}
+
+.product-spec .spec-size .size-list .type-name2 {
+  padding-left: 0;
+}

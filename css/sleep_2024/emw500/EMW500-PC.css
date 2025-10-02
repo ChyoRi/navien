@@ -1,0 +1,80 @@
+:root {
+  --color-black01: #000000E6;
+  --color-black02: #000000CC;
+  --color-black03: #333;
+  --color-black04: #1a1a1a;
+  --color-black05: #000;
+  --color-black06: #4d4d4d;
+  --color-black07: #202020;
+  --color-white01: #ffffff;
+  --color-white02: #f9f9f9;
+  --color-gray01: #F0F0F0;
+  --color-gray02: #808080;
+  --color-gray03: #00000080;
+  --color-gray04: #e6e6e6;
+  --color-gray05: #ccc;
+  --color-gray06: #d9d9d9;
+  --color-gray07: #f7f7f7;
+  --color-beige: #F5F2EE;
+}
+
+/* 나만의 AI 숙면 솔루션 (수면 실험결과 그래프) */
+.prd-section-sleep-solution {
+  padding: 0;
+}
+
+.group-AIsolutionData {
+  height: 839px;
+  background-image: url("../../../images/sleep_2024/water/group-AIsolutionData-bg-520.jpg")
+}
+
+.group-AIsolutionData .sub-title {
+  line-height: 34px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: -0.56px;
+}
+
+.group-AIsolutionData .main-description {
+  line-height: 42px;
+  margin: 50px 0 4px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+}
+
+.group-AIsolutionData .description {
+  margin-top: 0;
+}
+
+.group-AIsolutionData .mid {
+  gap: 25px 0;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph.anima .arrow {
+  height: 33px;
+  top: 32px;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(1) .chart > .graph:nth-child(1) {
+  height: 53px;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph.anima .arrow {
+  height: 33px;
+  top: 15px;
+}
+
+.group-AIsolutionData .mid .wrap-charts .grid-lines:nth-child(1) > .item:nth-child(2) .chart > .graph:nth-child(1) {
+  height: 72px;
+}
+
+.prd-section .section-header-order .title-label {
+  color: var(--color-black06);
+}
+
+/* 패딩매트 */
+.padding-type-mat .section-header-order {
+  margin-bottom: 40px;
+}

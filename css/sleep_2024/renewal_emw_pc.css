@@ -263,6 +263,7 @@
 .prd-section-cozy .section-title,
 .prd-section-sleep-solution .section-title {
   line-height: 70px;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
   letter-spacing: -0.9px;
@@ -274,12 +275,17 @@
 .prd-section-sleep-solution .title-label {
   display: block;
   line-height: 28px;
-  margin-bottom: 50px;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: -0.36px;
   text-align: center;
   color: var(--color-black01);
+}
+
+.prd-section .section-header,
+.prd-section-cozy .section-header,
+.prd-section-sleep-solution .section-header {
+  margin-bottom: 50px;
 }
 
 /* 온도의 개인화, 숙면의 최적화 */
@@ -836,6 +842,14 @@
 }
 
 /* 다중 안전 시스템 */
+.safe-system .section-header-order {
+  margin-bottom: 40px;
+}
+
+.safe-system .section-title {
+  margin-bottom: 15px;
+}
+
 .safe-system-information .safe-system-list .icon.high-temperature {
   background-position: -215px -216px;
 }
